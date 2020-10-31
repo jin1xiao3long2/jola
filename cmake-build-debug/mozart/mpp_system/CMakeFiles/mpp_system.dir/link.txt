@@ -1,0 +1,2 @@
+C:\BC\C\mingw64\bin\ar.exe qc libmpp_system.a  CMakeFiles/mpp_system.dir/src/process.cpp.obj CMakeFiles/mpp_system.dir/src/process_unix.cpp.obj CMakeFiles/mpp_system.dir/src/process_win32.cpp.obj
+C:\BC\C\mingw64\bin\ranlib.exe libmpp_system.a

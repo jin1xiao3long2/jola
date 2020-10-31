@@ -1,0 +1,2 @@
+C:\BC\C\mingw64\bin\ar.exe qc libmpp_foundation.a  CMakeFiles/mpp_foundation.dir/src/timer.cpp.obj
+C:\BC\C\mingw64\bin\ranlib.exe libmpp_foundation.a

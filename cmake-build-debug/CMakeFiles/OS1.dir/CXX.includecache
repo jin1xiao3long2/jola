@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/CPP/2020_5/OS/BitMap.h
+
+C:/CPP/2020_5/OS/Directory.h
+
+C:/CPP/2020_5/OS/FileSystem.h
+math.h
+-
+BitMap.h
+C:/CPP/2020_5/OS/BitMap.h
+Directory.h
+C:/CPP/2020_5/OS/Directory.h
+
+C:/CPP/2020_5/OS/main.cpp
+memory.h
+-
+stdio.h
+-
+FileSystem.h
+C:/CPP/2020_5/OS/FileSystem.h
+

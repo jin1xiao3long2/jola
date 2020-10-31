@@ -1,0 +1,2 @@
+C:\BC\C\mingw64\bin\ar.exe qc libmpp_core.a  CMakeFiles/mpp_core.dir/src/core.cpp.obj
+C:\BC\C\mingw64\bin\ranlib.exe libmpp_core.a

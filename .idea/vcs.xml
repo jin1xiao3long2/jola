@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/mozart" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/mozart/mpp_core" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/mozart/mpp_foundation" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/mozart/mpp_string" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/mozart/mpp_system" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tcode/Modern_Cpp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/third-party/mozart" vcs="Git" />
+  </component>
+</project>

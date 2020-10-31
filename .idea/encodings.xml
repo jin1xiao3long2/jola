@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/OS/BitMap.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/OS/BitMap.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/OS/BitMap.hpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/OS/Directory.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/OS/Directory.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/OS/Directory.hpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/OS/FileSystem.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/OS/FileSystem.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/OS/FileSystem.hpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/OS/OCtest.cpp" charset="GBK" />
+  </component>
+</project>

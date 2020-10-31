@@ -1,0 +1,1 @@
+ libmpp_string.a ../mpp_foundation/libmpp_foundation.a ../mpp_core/libmpp_core.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
