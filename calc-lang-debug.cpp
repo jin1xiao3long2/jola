@@ -10,10 +10,10 @@ term ::= factor ('*' factor)+
        ;
 
 factor ::= '(' expr ')'
-         | num
+         | Num
          ;
 
-num ::= son '%' mon
+Num ::= son '%' mon
       | son
       ;
 
@@ -23,10 +23,7 @@ mon ::= digit+ ;
 digit ::= 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 ;
 */
 
-100012321312312
-100012321312312
-100012321312312
-100012321312312
+
 
 
 #include <iostream>
@@ -55,7 +52,7 @@ public:
 
     //Cons
     Num(int son, int mon) : son(son), mon(mon) {
-        simplify();             //ensure every num is simplified
+        simplify();             //ensure every Num is simplified
     }
 
     // + - * /
@@ -116,7 +113,7 @@ enum struct TokenType {
 
 struct Token {
     TokenType type;  //for symbol
-    Num num;         //for num
+    Num num;         //for Num
     Token(TokenType type) : type(type) {}
 
     Token(Num num) : type(TokenType::NUM), num(num) {}
@@ -170,7 +167,7 @@ std::deque<Token> lex(const std::string &src) {
             continue;
         }
 
-        // num
+        // Num
         if (*p >= '0' && *p <= '9') {
             int son = 0;
             int mon = 0;
@@ -248,7 +245,7 @@ struct Term : public Node {
     Factor *lhs{};
     Factor *rhs{};
     TokenType op;
-    1
+
 
     Num eval() override {
         Num l = lhs->eval();
@@ -342,7 +339,7 @@ struct Parser {
 
     Num consume_num() {
         if (peek() != TokenType::NUM) {
-            throw std::runtime_error(std::string("expected num"));
+            throw std::runtime_error(std::string("expected Num"));
         }
         Num num = tokens.front().num;
         consume();
@@ -375,7 +372,7 @@ struct Parser {
                 break;
             }
             default: {
-                throw std::runtime_error(std::string("expected '(' or num"));
+                throw std::runtime_error(std::string("expected '(' or Num"));
             }
         }
         return factor;

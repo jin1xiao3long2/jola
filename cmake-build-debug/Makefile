@@ -58,10 +58,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\XM\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\202.7660.37\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = C:\Users\XM\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.7717.62\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\XM\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\202.7660.37\bin\cmake\win\bin\cmake.exe -E rm -f
+RM = C:\Users\XM\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.7717.62\bin\cmake\win\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -78,7 +78,7 @@ CMAKE_BINARY_DIR = C:\CPP\2020_5\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	C:\Users\XM\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\202.7660.37\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
+	C:\Users\XM\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.7717.62\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -89,7 +89,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	C:\Users\XM\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\202.7660.37\bin\cmake\win\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	C:\Users\XM\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.7717.62\bin\cmake\win\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -442,6 +442,32 @@ mb/fast:
 .PHONY : mb/fast
 
 #=============================================================================
+# Target rules for targets named lexer
+
+# Build rule for target.
+lexer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lexer
+.PHONY : lexer
+
+# fast build rule for target.
+lexer/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lexer.dir\build.make CMakeFiles/lexer.dir/build
+.PHONY : lexer/fast
+
+#=============================================================================
+# Target rules for targets named delnbsp
+
+# Build rule for target.
+delnbsp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 delnbsp
+.PHONY : delnbsp
+
+# fast build rule for target.
+delnbsp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\delnbsp.dir\build.make CMakeFiles/delnbsp.dir/build
+.PHONY : delnbsp/fast
+
+#=============================================================================
 # Target rules for targets named lib
 
 # Build rule for target.
@@ -596,6 +622,97 @@ overflow: cmake_check_build_system
 overflow/fast:
 	$(MAKE) $(MAKESILENT) -f tcode\CMakeFiles\overflow.dir\build.make tcode/CMakeFiles/overflow.dir/build
 .PHONY : overflow/fast
+
+#=============================================================================
+# Target rules for targets named LexerTest
+
+# Build rule for target.
+LexerTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LexerTest
+.PHONY : LexerTest
+
+# fast build rule for target.
+LexerTest/fast:
+	$(MAKE) $(MAKESILENT) -f Compiler\CMakeFiles\LexerTest.dir\build.make Compiler/CMakeFiles/LexerTest.dir/build
+.PHONY : LexerTest/fast
+
+#=============================================================================
+# Target rules for targets named Lexer
+
+# Build rule for target.
+Lexer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Lexer
+.PHONY : Lexer
+
+# fast build rule for target.
+Lexer/fast:
+	$(MAKE) $(MAKESILENT) -f Compiler\CMakeFiles\Lexer.dir\build.make Compiler/CMakeFiles/Lexer.dir/build
+.PHONY : Lexer/fast
+
+#=============================================================================
+# Target rules for targets named ParserTest
+
+# Build rule for target.
+ParserTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ParserTest
+.PHONY : ParserTest
+
+# fast build rule for target.
+ParserTest/fast:
+	$(MAKE) $(MAKESILENT) -f Compiler\CMakeFiles\ParserTest.dir\build.make Compiler/CMakeFiles/ParserTest.dir/build
+.PHONY : ParserTest/fast
+
+#=============================================================================
+# Target rules for targets named Parser
+
+# Build rule for target.
+Parser: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Parser
+.PHONY : Parser
+
+# fast build rule for target.
+Parser/fast:
+	$(MAKE) $(MAKESILENT) -f Compiler\CMakeFiles\Parser.dir\build.make Compiler/CMakeFiles/Parser.dir/build
+.PHONY : Parser/fast
+
+#=============================================================================
+# Target rules for targets named LibLexer
+
+# Build rule for target.
+LibLexer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LibLexer
+.PHONY : LibLexer
+
+# fast build rule for target.
+LibLexer/fast:
+	$(MAKE) $(MAKESILENT) -f Compiler\CMakeFiles\LibLexer.dir\build.make Compiler/CMakeFiles/LibLexer.dir/build
+.PHONY : LibLexer/fast
+
+#=============================================================================
+# Target rules for targets named SimpleParser
+
+# Build rule for target.
+SimpleParser: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SimpleParser
+.PHONY : SimpleParser
+
+# fast build rule for target.
+SimpleParser/fast:
+	$(MAKE) $(MAKESILENT) -f Compiler\CMakeFiles\SimpleParser.dir\build.make Compiler/CMakeFiles/SimpleParser.dir/build
+.PHONY : SimpleParser/fast
+
+#=============================================================================
+# Target rules for targets named LibParser
+
+# Build rule for target.
+LibParser: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LibParser
+.PHONY : LibParser
+
+# fast build rule for target.
+LibParser/fast:
+	$(MAKE) $(MAKESILENT) -f Compiler\CMakeFiles\LibParser.dir\build.make Compiler/CMakeFiles/LibParser.dir/build
+.PHONY : LibParser/fast
 
 5_31algo_C.obj: 5_31algo_C.cpp.obj
 
@@ -1164,6 +1281,60 @@ calc-lang.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/calc-lang.cpp.s
 .PHONY : calc-lang.cpp.s
 
+clexer.obj: clexer.cpp.obj
+
+.PHONY : clexer.obj
+
+# target to build an object file
+clexer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lexer.dir\build.make CMakeFiles/lexer.dir/clexer.cpp.obj
+.PHONY : clexer.cpp.obj
+
+clexer.i: clexer.cpp.i
+
+.PHONY : clexer.i
+
+# target to preprocess a source file
+clexer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lexer.dir\build.make CMakeFiles/lexer.dir/clexer.cpp.i
+.PHONY : clexer.cpp.i
+
+clexer.s: clexer.cpp.s
+
+.PHONY : clexer.s
+
+# target to generate assembly for a file
+clexer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lexer.dir\build.make CMakeFiles/lexer.dir/clexer.cpp.s
+.PHONY : clexer.cpp.s
+
+delnbsp.obj: delnbsp.cpp.obj
+
+.PHONY : delnbsp.obj
+
+# target to build an object file
+delnbsp.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\delnbsp.dir\build.make CMakeFiles/delnbsp.dir/delnbsp.cpp.obj
+.PHONY : delnbsp.cpp.obj
+
+delnbsp.i: delnbsp.cpp.i
+
+.PHONY : delnbsp.i
+
+# target to preprocess a source file
+delnbsp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\delnbsp.dir\build.make CMakeFiles/delnbsp.dir/delnbsp.cpp.i
+.PHONY : delnbsp.cpp.i
+
+delnbsp.s: delnbsp.cpp.s
+
+.PHONY : delnbsp.s
+
+# target to generate assembly for a file
+delnbsp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\delnbsp.dir\build.make CMakeFiles/delnbsp.dir/delnbsp.cpp.s
+.PHONY : delnbsp.cpp.s
+
 lib.obj: lib.cpp.obj
 
 .PHONY : lib.obj
@@ -1374,9 +1545,17 @@ help:
 	@echo ... AD_8
 	@echo ... AD_9
 	@echo ... Huffman
+	@echo ... Lexer
+	@echo ... LexerTest
+	@echo ... LibLexer
+	@echo ... LibParser
 	@echo ... OS
 	@echo ... OS1
+	@echo ... Parser
+	@echo ... ParserTest
+	@echo ... SimpleParser
 	@echo ... code
+	@echo ... delnbsp
 	@echo ... exception
 	@echo ... explicit
 	@echo ... expr
@@ -1384,6 +1563,7 @@ help:
 	@echo ... if
 	@echo ... implicit
 	@echo ... lang-debug
+	@echo ... lexer
 	@echo ... lib
 	@echo ... mb
 	@echo ... operator
@@ -1460,6 +1640,12 @@ help:
 	@echo ... calc-lang.obj
 	@echo ... calc-lang.i
 	@echo ... calc-lang.s
+	@echo ... clexer.obj
+	@echo ... clexer.i
+	@echo ... clexer.s
+	@echo ... delnbsp.obj
+	@echo ... delnbsp.i
+	@echo ... delnbsp.s
 	@echo ... lib.obj
 	@echo ... lib.i
 	@echo ... lib.s

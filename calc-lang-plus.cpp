@@ -12,13 +12,13 @@ term ::= factor '*' factor
        ;
 
 factor ::= '(' expr ')'
-         | num
+         | Num
          | id
          ;
 
 id ::= alpha ( alpha | digit )*
 
-num ::= son '%' mon
+Num ::= son '%' mon
       | son
       | '(' sign son ')'
       | '(' sign son '%' mon ')'
@@ -126,6 +126,11 @@ struct Token {
     Token(Num num) : type(TokenType::NUM), num(num) {}
 };
 
+std::ostream &operator<< (std::ostream& out, Token& token){
+    out << '<' << token.id;
+    return out;
+}
+
 using CharP = const char *;
 
 void skip_ws(CharP &p) {
@@ -178,7 +183,7 @@ std::deque<Token> lex(const std::string &src) {
             continue;
         }
 
-        // num
+        // Num
         if (*p >= '0' && *p <= '9') {
             int son = 0;
             int mon = 0;
@@ -367,7 +372,7 @@ struct Parser {
 
     Num consume_num() {
         if (peek() != TokenType::NUM) {
-            throw std::runtime_error(std::string("Syntax Error: expected num"));
+            throw std::runtime_error(std::string("Syntax Error: expected Num"));
         }
         Num num = tokens.front().num;
         consume();
@@ -413,7 +418,7 @@ struct Parser {
                 break;
             }
             default: {
-                throw std::runtime_error(std::string("Syntax Error: expected '(' or num"));
+                throw std::runtime_error(std::string("Syntax Error: expected '(' or Num"));
             }
         }
         return factor;
@@ -462,7 +467,8 @@ struct Parser {
 
 void Run(const std::string &line) {
     try {
-        Parser parser(lex(line));
+        auto tokens = lex(line);
+        Parser parser(tokens);
         Unit *unit = parser.parseUnit();
         std::cout << unit->eval() << std::endl;
         delete unit;

@@ -1,7 +1,5 @@
 #pragma once
 
-#pragma once
-
 #include <string>
 #include <vector>
 #include <fstream>
@@ -239,6 +237,7 @@ private:
                     }
                 }
             }
+
             file1.close();
             std::fstream file2;
             file2.open(infileName.substr(0, infileName.length() - 8) + ".txt", std::ios::out);

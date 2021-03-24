@@ -14,7 +14,7 @@ int main() {
     //而某些运算符在面对不同的运算对象时，可能有不同的操作数以及不同的作用。
     int num = 3;
     int *ptr = &num;
-    cout << "num(*ptr) * num(*ptr) = " << (*ptr) * (*ptr) << endl;
+    cout << "Num(*ptr) * Num(*ptr) = " << (*ptr) * (*ptr) << endl;
 
     //优先级 优先级高的先运算
     cout << "5 + 3 * 2 = " << 5 + 3 * 2 << endl;
@@ -25,10 +25,10 @@ int main() {
     //结合律 同优先级从左至右计算
     cout << "10 - 2 - 1 = " << 10 - 2 - 1 << endl;
 
-//    int num = 5;
-//    int *a = &num;   //     * 声明指针 , & 取地址
-//    int &b = num;    //     & 引用
-//    cout << "The value of num is " << num << endl;
+//    int Num = 5;
+//    int *a = &Num;   //     * 声明指针 , & 取地址
+//    int &b = Num;    //     & 引用
+//    cout << "The value of Num is " << Num << endl;
 //    cout << "The value of '*a' is " <<  *a << endl;  // * 解引用
 //    cout << "The value of 'b * b' is " << b * b << endl;  //乘法
 

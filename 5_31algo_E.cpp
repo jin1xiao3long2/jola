@@ -37,7 +37,7 @@ void bfs(std::queue<pos> &Queue, int height, int weight) {
     if (reachable(x + 1, y)) {
         if (Node[x + 1][y] == 0) {
             Node[x + 1][y] = 1;
-            num++;
+            Num++;
             Queue.emplace(pos(x + 1, y));
 //            std::cout << "Add pos: " << x + 1 << " " << y << std::endl;
         }
@@ -45,7 +45,7 @@ void bfs(std::queue<pos> &Queue, int height, int weight) {
     if (reachable(x - 1, y)) {
         if (Node[x - 1][y] == 0) {
             Node[x - 1][y] = 1;
-            num++;
+            Num++;
             Queue.emplace(pos(x - 1, y));
 //            std::cout << "Add pos: " << x - 1 << " " << y << std::endl;
         }
@@ -53,7 +53,7 @@ void bfs(std::queue<pos> &Queue, int height, int weight) {
     if (reachable(x, y + 1)) {
         if (Node[x][y + 1] == 0) {
             Node[x][y + 1] = 1;
-            num++;
+            Num++;
             Queue.emplace(pos(x, y + 1));
 //            std::cout << "Add pos: " << x << " " << y + 1 << std::endl;
         }
@@ -61,7 +61,7 @@ void bfs(std::queue<pos> &Queue, int height, int weight) {
     if (reachable(x, y)) {
         if (Node[x][y - 1] == 0) {
             Node[x][y - 1] = 1;
-            num++;
+            Num++;
             Queue.emplace(pos(x, y - 1));
 //            std::cout << "Add pos: " << x << " " << y - 1 << std::endl;
         }
@@ -77,7 +77,7 @@ int main() {
             for (int j = 0; j < 22; j++)
                 Node[i][j] = -1;
         }
-        num = 1;
+        Num = 1;
         std::queue<pos> Queue;
         int height, width;
         std::cin >> height >> width;
@@ -123,7 +123,7 @@ int main() {
         while (!Queue.empty()) {
             bfs(Queue, height, width);
         }
-        std::cout << num << std::endl;
+        std::cout << Num << std::endl;
     }
 
     return 0;

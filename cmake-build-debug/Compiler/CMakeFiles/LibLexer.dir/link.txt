@@ -1,0 +1,2 @@
+C:\BC\C\mingw64\bin\ar.exe qc libLibLexer.a  CMakeFiles/LibLexer.dir/lexer.cpp.obj
+C:\BC\C\mingw64\bin\ranlib.exe libLibLexer.a

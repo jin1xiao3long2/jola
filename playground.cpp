@@ -1,6 +1,13 @@
 #include <iostream>
 #include <vector>
 
+class B{
+    int a;
+    int func;
+    double c;
+
+};
+
 class A{
 public:
     int x;
@@ -14,7 +21,7 @@ public:
     }
     A(A&&){
         std::cout << "Hi" << std::endl;
-    }ww
+    }
     A(A const &){
         std::cout << "Hello" << std::endl;
     }
@@ -24,6 +31,7 @@ int main()
 {
     A a(3);
     A b(a.ret());
+
     std::cout << b.x << std::endl;
 
     return 0;

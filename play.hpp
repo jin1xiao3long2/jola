@@ -1,19 +1,13 @@
-//
-// Created by XM on 2020/7/8.
-//
+#pragma once
 
-#ifndef PNAME_PLAY_HPP
-#define PNAME_PLAY_HPP
-
-
-class play {
-int x;
-int y;
-public:
-    play(int x, int y);
-
-    play(int x);
+struct A final{
+    int a;
 };
 
+class C{
 
-#endif //PNAME_PLAY_HPP
+private:
+    void show(){
+        A *a = new A;
+    }
+};

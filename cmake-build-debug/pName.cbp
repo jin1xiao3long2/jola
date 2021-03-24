@@ -5,7 +5,7 @@
 		<Option title="pName"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\tcode\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Compiler\;CMake Files\tcode\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="C:/CPP/2020_5/cmake-build-debug"/>
@@ -1025,6 +1025,90 @@
 					<DistClean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="lexer">
+				<Option output="C:/CPP/2020_5/cmake-build-debug/lexer.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/CPP/2020_5/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 lexer"/>
+					<CompileFile command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lexer/fast">
+				<Option output="C:/CPP/2020_5/cmake-build-debug/lexer.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/CPP/2020_5/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 lexer/fast"/>
+					<CompileFile command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="delnbsp">
+				<Option output="C:/CPP/2020_5/cmake-build-debug/delnbsp.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/CPP/2020_5/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 delnbsp"/>
+					<CompileFile command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="delnbsp/fast">
+				<Option output="C:/CPP/2020_5/cmake-build-debug/delnbsp.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/CPP/2020_5/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 delnbsp/fast"/>
+					<CompileFile command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="lib">
 				<Option output="C:/CPP/2020_5/cmake-build-debug/liblib.a" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/CPP/2020_5/cmake-build-debug"/>
@@ -1549,6 +1633,314 @@
 					<DistClean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/tcode/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="LexerTest">
+				<Option output="C:/CPP/2020_5/cmake-build-debug/Compiler/LexerTest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/CPP/2020_5/cmake-build-debug/Compiler"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/CPP/2020_5/Compiler/."/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Makefile&quot;  VERBOSE=1 LexerTest"/>
+					<CompileFile command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LexerTest/fast">
+				<Option output="C:/CPP/2020_5/cmake-build-debug/Compiler/LexerTest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/CPP/2020_5/cmake-build-debug/Compiler"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/CPP/2020_5/Compiler/."/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Makefile&quot;  VERBOSE=1 LexerTest/fast"/>
+					<CompileFile command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lexer">
+				<Option output="C:/CPP/2020_5/cmake-build-debug/Compiler/Lexer.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/CPP/2020_5/cmake-build-debug/Compiler"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/CPP/2020_5/Compiler/."/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Makefile&quot;  VERBOSE=1 Lexer"/>
+					<CompileFile command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lexer/fast">
+				<Option output="C:/CPP/2020_5/cmake-build-debug/Compiler/Lexer.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/CPP/2020_5/cmake-build-debug/Compiler"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/CPP/2020_5/Compiler/."/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Makefile&quot;  VERBOSE=1 Lexer/fast"/>
+					<CompileFile command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ParserTest">
+				<Option output="C:/CPP/2020_5/cmake-build-debug/Compiler/ParserTest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/CPP/2020_5/cmake-build-debug/Compiler"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/CPP/2020_5/Compiler/."/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Makefile&quot;  VERBOSE=1 ParserTest"/>
+					<CompileFile command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ParserTest/fast">
+				<Option output="C:/CPP/2020_5/cmake-build-debug/Compiler/ParserTest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/CPP/2020_5/cmake-build-debug/Compiler"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/CPP/2020_5/Compiler/."/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Makefile&quot;  VERBOSE=1 ParserTest/fast"/>
+					<CompileFile command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Parser">
+				<Option output="C:/CPP/2020_5/cmake-build-debug/Compiler/Parser.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/CPP/2020_5/cmake-build-debug/Compiler"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/CPP/2020_5/Compiler/."/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Makefile&quot;  VERBOSE=1 Parser"/>
+					<CompileFile command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Parser/fast">
+				<Option output="C:/CPP/2020_5/cmake-build-debug/Compiler/Parser.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/CPP/2020_5/cmake-build-debug/Compiler"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/CPP/2020_5/Compiler/."/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Makefile&quot;  VERBOSE=1 Parser/fast"/>
+					<CompileFile command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LibLexer">
+				<Option output="C:/CPP/2020_5/cmake-build-debug/Compiler/libLibLexer.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/CPP/2020_5/cmake-build-debug/Compiler"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/CPP/2020_5/Compiler/."/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Makefile&quot;  VERBOSE=1 LibLexer"/>
+					<CompileFile command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LibLexer/fast">
+				<Option output="C:/CPP/2020_5/cmake-build-debug/Compiler/libLibLexer.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/CPP/2020_5/cmake-build-debug/Compiler"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/CPP/2020_5/Compiler/."/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Makefile&quot;  VERBOSE=1 LibLexer/fast"/>
+					<CompileFile command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SimpleParser">
+				<Option output="C:/CPP/2020_5/cmake-build-debug/Compiler/SimpleParser.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/CPP/2020_5/cmake-build-debug/Compiler"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/CPP/2020_5/Compiler/."/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Makefile&quot;  VERBOSE=1 SimpleParser"/>
+					<CompileFile command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SimpleParser/fast">
+				<Option output="C:/CPP/2020_5/cmake-build-debug/Compiler/SimpleParser.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/CPP/2020_5/cmake-build-debug/Compiler"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/CPP/2020_5/Compiler/."/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Makefile&quot;  VERBOSE=1 SimpleParser/fast"/>
+					<CompileFile command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LibParser">
+				<Option output="C:/CPP/2020_5/cmake-build-debug/Compiler/libLibParser.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/CPP/2020_5/cmake-build-debug/Compiler"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/CPP/2020_5/Compiler/."/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Makefile&quot;  VERBOSE=1 LibParser"/>
+					<CompileFile command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LibParser/fast">
+				<Option output="C:/CPP/2020_5/cmake-build-debug/Compiler/libLibParser.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/CPP/2020_5/cmake-build-debug/Compiler"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/CPP/2020_5/Compiler/."/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Makefile&quot;  VERBOSE=1 LibParser/fast"/>
+					<CompileFile command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="C:/CPP/2020_5/5_31algo_C.cpp">
 			<Option target="5_31_algo_C"/>
@@ -1585,6 +1977,34 @@
 		</Unit>
 		<Unit filename="C:/CPP/2020_5/AD/t9.cpp">
 			<Option target="AD_9"/>
+		</Unit>
+		<Unit filename="C:/CPP/2020_5/Compiler/lexer.cpp">
+			<Option target="Lexer"/>
+			<Option target="LibLexer"/>
+		</Unit>
+		<Unit filename="C:/CPP/2020_5/Compiler/lexer.hpp">
+			<Option target="Lexer"/>
+			<Option target="LibLexer"/>
+		</Unit>
+		<Unit filename="C:/CPP/2020_5/Compiler/lexertest.cpp">
+			<Option target="LexerTest"/>
+		</Unit>
+		<Unit filename="C:/CPP/2020_5/Compiler/parser.cpp">
+			<Option target="Parser"/>
+		</Unit>
+		<Unit filename="C:/CPP/2020_5/Compiler/parser.hpp">
+			<Option target="Parser"/>
+		</Unit>
+		<Unit filename="C:/CPP/2020_5/Compiler/simpleParser.cpp">
+			<Option target="SimpleParser"/>
+			<Option target="LibParser"/>
+		</Unit>
+		<Unit filename="C:/CPP/2020_5/Compiler/simpleParser.hpp">
+			<Option target="SimpleParser"/>
+			<Option target="LibParser"/>
+		</Unit>
+		<Unit filename="C:/CPP/2020_5/Compiler/simpleParsertest.cpp">
+			<Option target="ParserTest"/>
 		</Unit>
 		<Unit filename="C:/CPP/2020_5/HuffmanTree.cpp">
 			<Option target="Huffman"/>
@@ -1633,6 +2053,12 @@
 		</Unit>
 		<Unit filename="C:/CPP/2020_5/calc-lang.cpp">
 			<Option target="test"/>
+		</Unit>
+		<Unit filename="C:/CPP/2020_5/clexer.cpp">
+			<Option target="lexer"/>
+		</Unit>
+		<Unit filename="C:/CPP/2020_5/delnbsp.cpp">
+			<Option target="delnbsp"/>
 		</Unit>
 		<Unit filename="C:/CPP/2020_5/lib.cpp">
 			<Option target="lib"/>
@@ -1693,6 +2119,9 @@
 		</Unit>
 		<Unit filename="C:/CPP/2020_5/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/CPP/2020_5/Compiler/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Compiler\"/>
 		</Unit>
 		<Unit filename="C:/CPP/2020_5/tcode/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tcode\"/>

@@ -52,6 +52,7 @@ int main() {
         Queue.push(pos_d);
         while (!Queue.empty()) {
             bfs(Queue);
+
 //            std::cout << "Queue.front:  " << Queue.front() << std::endl;
             if (Queue.front() == pos_c) {
                 std::cout << Node[pos_c] << std::endl;
@@ -59,5 +60,6 @@ int main() {
             }
         }
     }
+
     return 0;
 }

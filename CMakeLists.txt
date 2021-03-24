@@ -27,8 +27,11 @@ add_executable(play play.cpp)
 add_executable(playground playground.cpp)
 add_executable(relearn relearn.cpp)
 add_executable(mb mb.cpp)
-
+add_executable(lexer clexer.cpp)
 add_executable(random random.cpp)
+add_executable(delnbsp delnbsp.cpp)
+
+add_subdirectory(Compiler)
 
 #add_subdirectory(mozart)
 #include_directories(mozart/mpp_core)

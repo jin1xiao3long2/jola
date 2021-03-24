@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../Compiler/lexer.hpp
+iostream
+-
+deque
+-
+map
+-
+set
+-
+list
+-
+
+C:/CPP/2020_5/Compiler/lexer.cpp
+lexer.hpp
+-
+

@@ -1,17 +1,10 @@
 #include <iostream>
-#include <string>
-#include <sstream>
-//bool operator<(const foo& lhs, const foo& rhs){
-//    return lhs.end < rhs.end;
-//}
 
-using namespace std;
+struct A final{
+    int a;
+};
 
 int main(){
-    istringstream istr("5 1.2");
-    int a;
-    float b;
-    istr >> a >> b;
-    cout << a << "  " << b << endl;
+    A* a = new A;
     return 0;
 }
