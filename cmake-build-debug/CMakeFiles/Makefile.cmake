@@ -9,6 +9,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "../CMakeLists.txt"
   "../Compiler/CMakeLists.txt"
+  "../Compiler/Experience/CMakeLists.txt"
+  "../Compiler/Experience/Cminus/CMakeLists.txt"
+  "../Compiler/Experience/Tiny/CMakeLists.txt"
   "CMakeFiles/3.17.5/CMakeCCompiler.cmake"
   "CMakeFiles/3.17.5/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.17.5/CMakeRCCompiler.cmake"
@@ -53,6 +56,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "tcode/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Compiler/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Compiler/Experience/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Compiler/Experience/Tiny/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Compiler/Experience/Cminus/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -99,7 +105,12 @@ set(CMAKE_DEPEND_INFO_FILES
   "Compiler/CMakeFiles/Lexer.dir/DependInfo.cmake"
   "Compiler/CMakeFiles/ParserTest.dir/DependInfo.cmake"
   "Compiler/CMakeFiles/Parser.dir/DependInfo.cmake"
+  "Compiler/CMakeFiles/compilerstest.dir/DependInfo.cmake"
   "Compiler/CMakeFiles/LibLexer.dir/DependInfo.cmake"
   "Compiler/CMakeFiles/SimpleParser.dir/DependInfo.cmake"
   "Compiler/CMakeFiles/LibParser.dir/DependInfo.cmake"
+  "Compiler/Experience/Tiny/CMakeFiles/tinyLexer.dir/DependInfo.cmake"
+  "Compiler/Experience/Tiny/CMakeFiles/testLexer.dir/DependInfo.cmake"
+  "Compiler/Experience/Cminus/CMakeFiles/LexerLib.dir/DependInfo.cmake"
+  "Compiler/Experience/Cminus/CMakeFiles/Lexertest.dir/DependInfo.cmake"
   )

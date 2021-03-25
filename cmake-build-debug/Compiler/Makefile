@@ -190,6 +190,21 @@ Parser/fast:
 .PHONY : Parser/fast
 
 # Convenience name for target.
+Compiler/CMakeFiles/compilerstest.dir/rule:
+	cd /d C:\CPP\2020_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Compiler/CMakeFiles/compilerstest.dir/rule
+.PHONY : Compiler/CMakeFiles/compilerstest.dir/rule
+
+# Convenience name for target.
+compilerstest: Compiler/CMakeFiles/compilerstest.dir/rule
+
+.PHONY : compilerstest
+
+# fast build rule for target.
+compilerstest/fast:
+	cd /d C:\CPP\2020_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Compiler\CMakeFiles\compilerstest.dir\build.make Compiler/CMakeFiles/compilerstest.dir/build
+.PHONY : compilerstest/fast
+
+# Convenience name for target.
 Compiler/CMakeFiles/LibLexer.dir/rule:
 	cd /d C:\CPP\2020_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Compiler/CMakeFiles/LibLexer.dir/rule
 .PHONY : Compiler/CMakeFiles/LibLexer.dir/rule
@@ -233,6 +248,33 @@ LibParser: Compiler/CMakeFiles/LibParser.dir/rule
 LibParser/fast:
 	cd /d C:\CPP\2020_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Compiler\CMakeFiles\LibParser.dir\build.make Compiler/CMakeFiles/LibParser.dir/build
 .PHONY : LibParser/fast
+
+compilerStest.obj: compilerStest.cpp.obj
+
+.PHONY : compilerStest.obj
+
+# target to build an object file
+compilerStest.cpp.obj:
+	cd /d C:\CPP\2020_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Compiler\CMakeFiles\compilerstest.dir\build.make Compiler/CMakeFiles/compilerstest.dir/compilerStest.cpp.obj
+.PHONY : compilerStest.cpp.obj
+
+compilerStest.i: compilerStest.cpp.i
+
+.PHONY : compilerStest.i
+
+# target to preprocess a source file
+compilerStest.cpp.i:
+	cd /d C:\CPP\2020_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Compiler\CMakeFiles\compilerstest.dir\build.make Compiler/CMakeFiles/compilerstest.dir/compilerStest.cpp.i
+.PHONY : compilerStest.cpp.i
+
+compilerStest.s: compilerStest.cpp.s
+
+.PHONY : compilerStest.s
+
+# target to generate assembly for a file
+compilerStest.cpp.s:
+	cd /d C:\CPP\2020_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Compiler\CMakeFiles\compilerstest.dir\build.make Compiler/CMakeFiles/compilerstest.dir/compilerStest.cpp.s
+.PHONY : compilerStest.cpp.s
 
 lexer.obj: lexer.cpp.obj
 
@@ -390,6 +432,10 @@ help:
 	@echo ... Parser
 	@echo ... ParserTest
 	@echo ... SimpleParser
+	@echo ... compilerstest
+	@echo ... compilerStest.obj
+	@echo ... compilerStest.i
+	@echo ... compilerStest.s
 	@echo ... lexer.obj
 	@echo ... lexer.i
 	@echo ... lexer.s

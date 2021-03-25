@@ -6,7 +6,7 @@
 
 int main() {
 //    test :
-    std::string filename = "C:/CPP/2020_5/test1.txt";
+    std::string filename = "C:/CPP/2020_5/test.txt";
     std::fstream fs;
     fs.open(filename, std::ios::in);
     std::string sp;

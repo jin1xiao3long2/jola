@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="C_minus"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Compiler\;CMake Files\Compiler\Experience\;CMake Files\Compiler\Experience\Cminus\;CMake Files\Compiler\Experience\Tiny\;CMake Files\tcode\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/CPP/2020_5/cmake-build-debug/Compiler/Experience/Cminus"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Experience/Cminus/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Experience/Cminus/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Experience/Cminus/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Experience/Cminus/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LexerLib">
+				<Option output="C:/CPP/2020_5/cmake-build-debug/Compiler/Experience/Cminus/libLexerLib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/CPP/2020_5/cmake-build-debug/Compiler/Experience/Cminus"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/CPP/2020_5/Compiler/."/>
+					<Add directory="C:/CPP/2020_5/Compiler/Experience/Cminus/."/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Experience/Cminus/Makefile&quot;  VERBOSE=1 LexerLib"/>
+					<CompileFile command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Experience/Cminus/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Experience/Cminus/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Experience/Cminus/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LexerLib/fast">
+				<Option output="C:/CPP/2020_5/cmake-build-debug/Compiler/Experience/Cminus/libLexerLib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/CPP/2020_5/cmake-build-debug/Compiler/Experience/Cminus"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/CPP/2020_5/Compiler/."/>
+					<Add directory="C:/CPP/2020_5/Compiler/Experience/Cminus/."/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Experience/Cminus/Makefile&quot;  VERBOSE=1 LexerLib/fast"/>
+					<CompileFile command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Experience/Cminus/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Experience/Cminus/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Experience/Cminus/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lexertest">
+				<Option output="C:/CPP/2020_5/cmake-build-debug/Compiler/Experience/Cminus/Lexertest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/CPP/2020_5/cmake-build-debug/Compiler/Experience/Cminus"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/CPP/2020_5/Compiler/."/>
+					<Add directory="C:/CPP/2020_5/Compiler/Experience/Cminus/."/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Experience/Cminus/Makefile&quot;  VERBOSE=1 Lexertest"/>
+					<CompileFile command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Experience/Cminus/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Experience/Cminus/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Experience/Cminus/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lexertest/fast">
+				<Option output="C:/CPP/2020_5/cmake-build-debug/Compiler/Experience/Cminus/Lexertest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/CPP/2020_5/cmake-build-debug/Compiler/Experience/Cminus"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/CPP/2020_5/Compiler/."/>
+					<Add directory="C:/CPP/2020_5/Compiler/Experience/Cminus/."/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Experience/Cminus/Makefile&quot;  VERBOSE=1 Lexertest/fast"/>
+					<CompileFile command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Experience/Cminus/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Experience/Cminus/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/2020_5/cmake-build-debug/Compiler/Experience/Cminus/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/CPP/2020_5/Compiler/Experience/Cminus/CM_Lexer.cpp">
+			<Option target="LexerLib"/>
+		</Unit>
+		<Unit filename="C:/CPP/2020_5/Compiler/Experience/Cminus/CM_Lexer.hpp">
+			<Option target="LexerLib"/>
+		</Unit>
+		<Unit filename="C:/CPP/2020_5/Compiler/Experience/Cminus/CM_Signal.cpp">
+			<Option target="LexerLib"/>
+		</Unit>
+		<Unit filename="C:/CPP/2020_5/Compiler/Experience/Cminus/CM_Signal.hpp">
+			<Option target="LexerLib"/>
+		</Unit>
+		<Unit filename="C:/CPP/2020_5/Compiler/Experience/Cminus/CMlexertest.cpp">
+			<Option target="Lexertest"/>
+		</Unit>
+		<Unit filename="C:/CPP/2020_5/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/CPP/2020_5/Compiler/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Compiler\"/>
+		</Unit>
+		<Unit filename="C:/CPP/2020_5/Compiler/Experience/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Compiler\Experience\"/>
+		</Unit>
+		<Unit filename="C:/CPP/2020_5/Compiler/Experience/Cminus/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Compiler\Experience\Cminus\"/>
+		</Unit>
+		<Unit filename="C:/CPP/2020_5/Compiler/Experience/Tiny/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Compiler\Experience\Tiny\"/>
+		</Unit>
+		<Unit filename="C:/CPP/2020_5/tcode/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tcode\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../Compiler/Experience/Tiny/Tiny_Lexer.hpp
+string
+-
+Tiny_Signal.hpp
+-
+deque
+-
+
+../Compiler/Experience/Tiny/Tiny_Signal.hpp
+unordered_map
+-
+unordered_set
+-
+iostream
+-
+
+C:/CPP/2020_5/Compiler/Experience/Tiny/tinylexertest.cpp
+Tiny_Lexer.hpp
+-
+iostream
+-
+fstream
+-
+vector
+-
+

@@ -676,6 +676,19 @@ Parser/fast:
 .PHONY : Parser/fast
 
 #=============================================================================
+# Target rules for targets named compilerstest
+
+# Build rule for target.
+compilerstest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 compilerstest
+.PHONY : compilerstest
+
+# fast build rule for target.
+compilerstest/fast:
+	$(MAKE) $(MAKESILENT) -f Compiler\CMakeFiles\compilerstest.dir\build.make Compiler/CMakeFiles/compilerstest.dir/build
+.PHONY : compilerstest/fast
+
+#=============================================================================
 # Target rules for targets named LibLexer
 
 # Build rule for target.
@@ -713,6 +726,58 @@ LibParser: cmake_check_build_system
 LibParser/fast:
 	$(MAKE) $(MAKESILENT) -f Compiler\CMakeFiles\LibParser.dir\build.make Compiler/CMakeFiles/LibParser.dir/build
 .PHONY : LibParser/fast
+
+#=============================================================================
+# Target rules for targets named tinyLexer
+
+# Build rule for target.
+tinyLexer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tinyLexer
+.PHONY : tinyLexer
+
+# fast build rule for target.
+tinyLexer/fast:
+	$(MAKE) $(MAKESILENT) -f Compiler\Experience\Tiny\CMakeFiles\tinyLexer.dir\build.make Compiler/Experience/Tiny/CMakeFiles/tinyLexer.dir/build
+.PHONY : tinyLexer/fast
+
+#=============================================================================
+# Target rules for targets named testLexer
+
+# Build rule for target.
+testLexer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 testLexer
+.PHONY : testLexer
+
+# fast build rule for target.
+testLexer/fast:
+	$(MAKE) $(MAKESILENT) -f Compiler\Experience\Tiny\CMakeFiles\testLexer.dir\build.make Compiler/Experience/Tiny/CMakeFiles/testLexer.dir/build
+.PHONY : testLexer/fast
+
+#=============================================================================
+# Target rules for targets named LexerLib
+
+# Build rule for target.
+LexerLib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LexerLib
+.PHONY : LexerLib
+
+# fast build rule for target.
+LexerLib/fast:
+	$(MAKE) $(MAKESILENT) -f Compiler\Experience\Cminus\CMakeFiles\LexerLib.dir\build.make Compiler/Experience/Cminus/CMakeFiles/LexerLib.dir/build
+.PHONY : LexerLib/fast
+
+#=============================================================================
+# Target rules for targets named Lexertest
+
+# Build rule for target.
+Lexertest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Lexertest
+.PHONY : Lexertest
+
+# fast build rule for target.
+Lexertest/fast:
+	$(MAKE) $(MAKESILENT) -f Compiler\Experience\Cminus\CMakeFiles\Lexertest.dir\build.make Compiler/Experience/Cminus/CMakeFiles/Lexertest.dir/build
+.PHONY : Lexertest/fast
 
 5_31algo_C.obj: 5_31algo_C.cpp.obj
 
@@ -1546,7 +1611,9 @@ help:
 	@echo ... AD_9
 	@echo ... Huffman
 	@echo ... Lexer
+	@echo ... LexerLib
 	@echo ... LexerTest
+	@echo ... Lexertest
 	@echo ... LibLexer
 	@echo ... LibParser
 	@echo ... OS
@@ -1555,6 +1622,7 @@ help:
 	@echo ... ParserTest
 	@echo ... SimpleParser
 	@echo ... code
+	@echo ... compilerstest
 	@echo ... delnbsp
 	@echo ... exception
 	@echo ... explicit
@@ -1576,6 +1644,8 @@ help:
 	@echo ... switch
 	@echo ... test
 	@echo ... test1
+	@echo ... testLexer
+	@echo ... tinyLexer
 	@echo ... while
 	@echo ... 5_31algo_C.obj
 	@echo ... 5_31algo_C.i

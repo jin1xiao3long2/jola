@@ -6,3 +6,31 @@
 
 #IncludeRegexTransform: 
 
+../Compiler/lexer.cpp
+lexer.hpp
+-
+
+../Compiler/lexer.hpp
+iostream
+-
+deque
+-
+map
+-
+set
+-
+list
+-
+
+C:/CPP/2020_5/Compiler/lexertest.cpp
+iostream
+-
+set
+-
+lexer.cpp
+-
+fstream
+-
+string
+-
+
