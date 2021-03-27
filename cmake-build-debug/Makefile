@@ -728,6 +728,19 @@ LibParser/fast:
 .PHONY : LibParser/fast
 
 #=============================================================================
+# Target rules for targets named tntestLexer
+
+# Build rule for target.
+tntestLexer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tntestLexer
+.PHONY : tntestLexer
+
+# fast build rule for target.
+tntestLexer/fast:
+	$(MAKE) $(MAKESILENT) -f Compiler\Experience\Tiny\CMakeFiles\tntestLexer.dir\build.make Compiler/Experience/Tiny/CMakeFiles/tntestLexer.dir/build
+.PHONY : tntestLexer/fast
+
+#=============================================================================
 # Target rules for targets named tinyLexer
 
 # Build rule for target.
@@ -739,19 +752,6 @@ tinyLexer: cmake_check_build_system
 tinyLexer/fast:
 	$(MAKE) $(MAKESILENT) -f Compiler\Experience\Tiny\CMakeFiles\tinyLexer.dir\build.make Compiler/Experience/Tiny/CMakeFiles/tinyLexer.dir/build
 .PHONY : tinyLexer/fast
-
-#=============================================================================
-# Target rules for targets named testLexer
-
-# Build rule for target.
-testLexer: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 testLexer
-.PHONY : testLexer
-
-# fast build rule for target.
-testLexer/fast:
-	$(MAKE) $(MAKESILENT) -f Compiler\Experience\Tiny\CMakeFiles\testLexer.dir\build.make Compiler/Experience/Tiny/CMakeFiles/testLexer.dir/build
-.PHONY : testLexer/fast
 
 #=============================================================================
 # Target rules for targets named LexerLib
@@ -1644,8 +1644,8 @@ help:
 	@echo ... switch
 	@echo ... test
 	@echo ... test1
-	@echo ... testLexer
 	@echo ... tinyLexer
+	@echo ... tntestLexer
 	@echo ... while
 	@echo ... 5_31algo_C.obj
 	@echo ... 5_31algo_C.i

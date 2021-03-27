@@ -4,7 +4,7 @@ project(Tiny)
 
 add_library(tinyLexer Tiny_Lexer.cpp Tiny_Lexer.hpp Tiny_Signal.cpp Tiny_Signal.hpp)
 
-add_executable(testLexer tinylexertest.cpp)
+add_executable(tntestLexer tinylexertest.cpp)
 
-target_link_libraries(testLexer tinyLexer)
+target_link_libraries(tntestLexer tinyLexer)
 include_directories(./)

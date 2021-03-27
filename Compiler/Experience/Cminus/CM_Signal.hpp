@@ -79,6 +79,8 @@ namespace cm{
 
         virtual std::string get_string() const = 0;
 
+        virtual std::string get_show_info() const = 0;
+
         int get_line() const { return line; }
 
         int get_column() const { return column; }
@@ -112,6 +114,10 @@ namespace cm{
             out << line << ":" << this->get_string();
             return out;
         }
+
+        std::string  get_show_info() const override{
+            return std::string(std::to_string(line) + ":" + this->get_string());
+        }
     };
 
     class token_keyword final : public token_base{
@@ -141,6 +147,10 @@ namespace cm{
         std::ostream& show(std::ostream& out) override {
             out << line << ":reserved word:" << this->get_string();
             return out;
+        }
+
+        std::string  get_show_info() const override{
+            return std::string(std::to_string(line) + ":reserved word:" + this->get_string());
         }
     };
 
@@ -172,6 +182,10 @@ namespace cm{
             out << line << ":NUM, val= "<< this->get_string();
             return out;
         }
+
+        std::string  get_show_info() const override{
+            return std::string(std::to_string(line) + ":Num, val= " + this->get_string());
+        }
     };
 
     class token_identifier final : public token_base{
@@ -200,6 +214,10 @@ namespace cm{
             out << line << ":ID,name= " << this->get_string();
             return out;
         }
+
+        std::string  get_show_info() const override{
+            return std::string(std::to_string(line) + ":ID,name= " + this->get_string());
+        }
     };
 
     class token_error final: public token_base{
@@ -227,6 +245,10 @@ namespace cm{
         std::ostream& show(std::ostream& out) override {
             out << line << ":ERROR:"<< this->get_string();
             return out;
+        }
+
+        std::string  get_show_info() const override{
+            return std::string(std::to_string(line) + ":ERROR:" + this->get_string());
         }
     };
 }

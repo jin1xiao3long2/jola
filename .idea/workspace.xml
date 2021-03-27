@@ -39,17 +39,17 @@
       <config projectName="pName" targetName="lexer" />
       <config projectName="pName" targetName="AD_5" />
       <config projectName="pName" targetName="AD_6" />
-      <config projectName="pName" targetName="AD_3" />
       <config projectName="pName" targetName="switch" />
+      <config projectName="pName" targetName="AD_3" />
       <config projectName="pName" targetName="AD_4" />
       <config projectName="pName" targetName="AD_1" />
       <config projectName="pName" targetName="AD_2" />
       <config projectName="pName" targetName="overflow" />
       <config projectName="pName" targetName="LexerLib" />
-      <config projectName="pName" targetName="testLexer" />
       <config projectName="pName" targetName="exception" />
       <config projectName="pName" targetName="code" />
       <config projectName="pName" targetName="if" />
+      <config projectName="pName" targetName="tntestLexer" />
       <config projectName="pName" targetName="playground" />
       <config projectName="pName" targetName="expr" />
     </generated>
@@ -63,14 +63,20 @@
     <list default="true" id="f703466d-a41b-4526-ad29-97b132f0de9f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Compiler/Experience/Cminus/CM_Lexer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/Experience/Cminus/CM_Lexer.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Cminus/CM_Lexer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/Experience/Cminus/CM_Lexer.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Cminus/CM_Signal.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/Experience/Cminus/CM_Signal.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Compiler/Experience/Cminus/CM_Signal.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/Experience/Cminus/CM_Signal.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Compiler/Experience/Cminus/CMlexertest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/Experience/Cminus/CMlexertest.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/lexer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/lexer.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Cminus/CMakeFiles/LexerLib.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Cminus/CMakeFiles/LexerLib.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Cminus/CMakeFiles/Lexertest.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Cminus/CMakeFiles/Lexertest.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/Experience/Tiny/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyLexer.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyLexer.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/Tiny.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/Tiny.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/compiler_work.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/compiler_work.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/compiler_learn.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/compiler_learn.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pName.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pName.cbp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,12 +119,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Compiler/Experience/Tiny" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Cminus" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\CPP\2020_5\cmake-build-debug\Compiler\Experience\Cminus" />
       <recent name="C:\CPP\2020_5\Compiler\Experience\Tiny" />
       <recent name="C:\CPP\2020_5\AD" />
       <recent name="C:\CPP\2020_5\OS" />
@@ -211,7 +218,7 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lexertest" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="Lexertest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="Lexertest">
+    <configuration name="Lexertest" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="./c1.c-" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="Lexertest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="Lexertest">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -247,6 +254,11 @@
       </method>
     </configuration>
     <configuration name="SimpleParser" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="SimpleParser" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="SimpleParser">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -366,12 +378,12 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testLexer" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="testLexer" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="testLexer">
+    <configuration name="tinyLexer" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="tinyLexer" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tinyLexer" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="tinyLexer" CONFIG_NAME="Debug">
+    <configuration name="tntestLexer" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="tntestLexer" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="tntestLexer">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -428,8 +440,8 @@
       <item itemvalue="CMake Application.SimpleParser" />
       <item itemvalue="CMake Application.LexerLib" />
       <item itemvalue="CMake Application.Lexertest" />
-      <item itemvalue="CMake Application.testLexer" />
       <item itemvalue="CMake Application.tinyLexer" />
+      <item itemvalue="CMake Application.tntestLexer" />
       <item itemvalue="CMake Application.test" />
       <item itemvalue="CMake Application.while" />
     </list>
@@ -566,11 +578,26 @@
       <workItem from="1616690140665" duration="2415000" />
       <workItem from="1616760310330" duration="3763000" />
       <workItem from="1616775337312" duration="1621000" />
+      <workItem from="1616820118476" duration="826000" />
+      <workItem from="1616821026413" duration="10917000" />
+      <workItem from="1616848827633" duration="601000" />
     </task>
+    <task id="LOCAL-00001" summary="update C- lexer">
+      <created>1616820192554</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1616820192554</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update C- lexer" />
+    <option name="LAST_COMMIT_MESSAGE" value="update C- lexer" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

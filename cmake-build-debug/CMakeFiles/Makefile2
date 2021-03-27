@@ -222,8 +222,8 @@ Compiler/Experience/Cminus/clean: Compiler/Experience/Cminus/CMakeFiles/Lexertes
 # Directory level rules for directory Compiler/Experience/Tiny
 
 # Recursive "all" directory target.
+Compiler/Experience/Tiny/all: Compiler/Experience/Tiny/CMakeFiles/tntestLexer.dir/all
 Compiler/Experience/Tiny/all: Compiler/Experience/Tiny/CMakeFiles/tinyLexer.dir/all
-Compiler/Experience/Tiny/all: Compiler/Experience/Tiny/CMakeFiles/testLexer.dir/all
 
 .PHONY : Compiler/Experience/Tiny/all
 
@@ -233,8 +233,8 @@ Compiler/Experience/Tiny/preinstall:
 .PHONY : Compiler/Experience/Tiny/preinstall
 
 # Recursive "clean" directory target.
+Compiler/Experience/Tiny/clean: Compiler/Experience/Tiny/CMakeFiles/tntestLexer.dir/clean
 Compiler/Experience/Tiny/clean: Compiler/Experience/Tiny/CMakeFiles/tinyLexer.dir/clean
-Compiler/Experience/Tiny/clean: Compiler/Experience/Tiny/CMakeFiles/testLexer.dir/clean
 
 .PHONY : Compiler/Experience/Tiny/clean
 
@@ -1360,8 +1360,8 @@ Compiler/CMakeFiles/Lexer.dir/clean:
 # Target rules for target Compiler/CMakeFiles/ParserTest.dir
 
 # All Build rule for target.
-Compiler/CMakeFiles/ParserTest.dir/all: Compiler/CMakeFiles/LibParser.dir/all
 Compiler/CMakeFiles/ParserTest.dir/all: Compiler/CMakeFiles/LibLexer.dir/all
+Compiler/CMakeFiles/ParserTest.dir/all: Compiler/CMakeFiles/LibParser.dir/all
 	$(MAKE) $(MAKESILENT) -f Compiler\CMakeFiles\ParserTest.dir\build.make Compiler/CMakeFiles/ParserTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f Compiler\CMakeFiles\ParserTest.dir\build.make Compiler/CMakeFiles/ParserTest.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=46,47 "Built target ParserTest"
@@ -1520,13 +1520,40 @@ Compiler/CMakeFiles/LibParser.dir/clean:
 .PHONY : Compiler/CMakeFiles/LibParser.dir/clean
 
 #=============================================================================
+# Target rules for target Compiler/Experience/Tiny/CMakeFiles/tntestLexer.dir
+
+# All Build rule for target.
+Compiler/Experience/Tiny/CMakeFiles/tntestLexer.dir/all: Compiler/Experience/Tiny/CMakeFiles/tinyLexer.dir/all
+	$(MAKE) $(MAKESILENT) -f Compiler\Experience\Tiny\CMakeFiles\tntestLexer.dir\build.make Compiler/Experience/Tiny/CMakeFiles/tntestLexer.dir/depend
+	$(MAKE) $(MAKESILENT) -f Compiler\Experience\Tiny\CMakeFiles\tntestLexer.dir\build.make Compiler/Experience/Tiny/CMakeFiles/tntestLexer.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=97,98 "Built target tntestLexer"
+.PHONY : Compiler/Experience/Tiny/CMakeFiles/tntestLexer.dir/all
+
+# Build rule for subdir invocation for target.
+Compiler/Experience/Tiny/CMakeFiles/tntestLexer.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\2020_5\cmake-build-debug\CMakeFiles 5
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Compiler/Experience/Tiny/CMakeFiles/tntestLexer.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\2020_5\cmake-build-debug\CMakeFiles 0
+.PHONY : Compiler/Experience/Tiny/CMakeFiles/tntestLexer.dir/rule
+
+# Convenience name for target.
+tntestLexer: Compiler/Experience/Tiny/CMakeFiles/tntestLexer.dir/rule
+
+.PHONY : tntestLexer
+
+# clean rule for target.
+Compiler/Experience/Tiny/CMakeFiles/tntestLexer.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Compiler\Experience\Tiny\CMakeFiles\tntestLexer.dir\build.make Compiler/Experience/Tiny/CMakeFiles/tntestLexer.dir/clean
+.PHONY : Compiler/Experience/Tiny/CMakeFiles/tntestLexer.dir/clean
+
+#=============================================================================
 # Target rules for target Compiler/Experience/Tiny/CMakeFiles/tinyLexer.dir
 
 # All Build rule for target.
 Compiler/Experience/Tiny/CMakeFiles/tinyLexer.dir/all:
 	$(MAKE) $(MAKESILENT) -f Compiler\Experience\Tiny\CMakeFiles\tinyLexer.dir\build.make Compiler/Experience/Tiny/CMakeFiles/tinyLexer.dir/depend
 	$(MAKE) $(MAKESILENT) -f Compiler\Experience\Tiny\CMakeFiles\tinyLexer.dir\build.make Compiler/Experience/Tiny/CMakeFiles/tinyLexer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=96,97,98 "Built target tinyLexer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=94,95,96 "Built target tinyLexer"
 .PHONY : Compiler/Experience/Tiny/CMakeFiles/tinyLexer.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1545,33 +1572,6 @@ tinyLexer: Compiler/Experience/Tiny/CMakeFiles/tinyLexer.dir/rule
 Compiler/Experience/Tiny/CMakeFiles/tinyLexer.dir/clean:
 	$(MAKE) $(MAKESILENT) -f Compiler\Experience\Tiny\CMakeFiles\tinyLexer.dir\build.make Compiler/Experience/Tiny/CMakeFiles/tinyLexer.dir/clean
 .PHONY : Compiler/Experience/Tiny/CMakeFiles/tinyLexer.dir/clean
-
-#=============================================================================
-# Target rules for target Compiler/Experience/Tiny/CMakeFiles/testLexer.dir
-
-# All Build rule for target.
-Compiler/Experience/Tiny/CMakeFiles/testLexer.dir/all: Compiler/Experience/Tiny/CMakeFiles/tinyLexer.dir/all
-	$(MAKE) $(MAKESILENT) -f Compiler\Experience\Tiny\CMakeFiles\testLexer.dir\build.make Compiler/Experience/Tiny/CMakeFiles/testLexer.dir/depend
-	$(MAKE) $(MAKESILENT) -f Compiler\Experience\Tiny\CMakeFiles\testLexer.dir\build.make Compiler/Experience/Tiny/CMakeFiles/testLexer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=94,95 "Built target testLexer"
-.PHONY : Compiler/Experience/Tiny/CMakeFiles/testLexer.dir/all
-
-# Build rule for subdir invocation for target.
-Compiler/Experience/Tiny/CMakeFiles/testLexer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\2020_5\cmake-build-debug\CMakeFiles 5
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Compiler/Experience/Tiny/CMakeFiles/testLexer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\2020_5\cmake-build-debug\CMakeFiles 0
-.PHONY : Compiler/Experience/Tiny/CMakeFiles/testLexer.dir/rule
-
-# Convenience name for target.
-testLexer: Compiler/Experience/Tiny/CMakeFiles/testLexer.dir/rule
-
-.PHONY : testLexer
-
-# clean rule for target.
-Compiler/Experience/Tiny/CMakeFiles/testLexer.dir/clean:
-	$(MAKE) $(MAKESILENT) -f Compiler\Experience\Tiny\CMakeFiles\testLexer.dir\build.make Compiler/Experience/Tiny/CMakeFiles/testLexer.dir/clean
-.PHONY : Compiler/Experience/Tiny/CMakeFiles/testLexer.dir/clean
 
 #=============================================================================
 # Target rules for target Compiler/Experience/Cminus/CMakeFiles/LexerLib.dir

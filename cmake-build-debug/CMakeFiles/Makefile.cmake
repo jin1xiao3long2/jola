@@ -109,8 +109,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "Compiler/CMakeFiles/LibLexer.dir/DependInfo.cmake"
   "Compiler/CMakeFiles/SimpleParser.dir/DependInfo.cmake"
   "Compiler/CMakeFiles/LibParser.dir/DependInfo.cmake"
+  "Compiler/Experience/Tiny/CMakeFiles/tntestLexer.dir/DependInfo.cmake"
   "Compiler/Experience/Tiny/CMakeFiles/tinyLexer.dir/DependInfo.cmake"
-  "Compiler/Experience/Tiny/CMakeFiles/testLexer.dir/DependInfo.cmake"
   "Compiler/Experience/Cminus/CMakeFiles/LexerLib.dir/DependInfo.cmake"
   "Compiler/Experience/Cminus/CMakeFiles/Lexertest.dir/DependInfo.cmake"
   )

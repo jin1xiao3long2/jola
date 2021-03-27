@@ -172,7 +172,7 @@ namespace cm {
                         add_token_error(line, column, info);
                         ++p;
                         column++;
-                        state = token_type::null_type;
+                        continue;
                     }
                     break;
                 }
@@ -241,7 +241,6 @@ namespace cm {
                         }
                         tmp_column++;
                     }
-
                     if(!sig.empty()){
                         add_token_signal(line, tmp_column, sig);
                     }
