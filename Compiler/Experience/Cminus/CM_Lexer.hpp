@@ -28,11 +28,15 @@ namespace cm {
 
         bool is_comment_start(char ch) noexcept;
 
+        bool is_comment_begin(char ch) noexcept;
+
         bool is_comment_end(char ch) noexcept;
 
-        bool is_assign_start(char ch) noexcept;
+        bool is_comment_finish(char ch) noexcept;
 
-        bool is_assign_end(char ch) noexcept;
+        bool is_not_equal_start(char ch) noexcept;
+
+        bool is_not_equal_end(char ch) noexcept;
 
         void add_token_signal(int line, int column, std::string token_value);
 

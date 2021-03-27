@@ -34,6 +34,8 @@ namespace cm {
             {"]",signal_type::RIGHT_S},
             {"{",signal_type::LEFT_B},
             {"}",signal_type::RIGHT_B},
+            {",", signal_type::COMMA},
+            {";",signal_type::SEMICOLON},
     };
 
     const std::unordered_map<signal_type, std::string> signal_map::signal2string_map = {
@@ -54,6 +56,8 @@ namespace cm {
             {signal_type::RIGHT_S,"]"},
             {signal_type::LEFT_B,"{"},
             {signal_type::RIGHT_B,"}"},
+            {signal_type::COMMA,","},
+            {signal_type::SEMICOLON, ";"},
     };
 
     /*
@@ -83,7 +87,7 @@ namespace cm {
     };
 
     const std::unordered_set<char> signal_map::signals = {
-            '+','-','*','/','<','=','>','~','(',')','[',']','{','}',
+            '+','-','*','/','<','=','>','~','(',')','[',']','{','}',',',';',
     };//except not_eq begin '~'
 
     signal_type string_convert_signal(std::string str) noexcept{

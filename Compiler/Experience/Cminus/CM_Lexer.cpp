@@ -17,20 +17,28 @@ namespace cm {
         return ch == '\n';
     }
 
-    bool Lexer::is_assign_start(char ch) noexcept {
-        return ch == ':';
+    bool Lexer::is_not_equal_start(char ch) noexcept {
+        return ch == '~';
     }
 
-    bool Lexer::is_assign_end(char ch) noexcept {
+    bool Lexer::is_not_equal_end(char ch) noexcept {
         return ch == '=';
     }
 
     bool Lexer::is_comment_start(char ch) noexcept {
-        return ch == '{';
+        return ch == '/';
+    }
+
+    bool Lexer::is_comment_begin(char ch) noexcept {
+        return ch == '*';
     }
 
     bool Lexer::is_comment_end(char ch) noexcept {
-        return ch == '}';
+        return ch == '*';
+    }
+
+    bool Lexer::is_comment_finish(char ch) noexcept {
+        return ch == '/';
     }
 
     bool Lexer::is_letter(char ch) noexcept {
@@ -55,7 +63,7 @@ namespace cm {
         tokens.push_back(new token_keyword(line, column, keyword));
     }
 
-    void Lexer::add_token_error(int line, int column, std::string token_value){
+    void Lexer::add_token_error(int line, int column, std::string token_value) {
         tokens.push_back(new token_error(line, column, token_value));
     }
 
@@ -74,47 +82,51 @@ namespace cm {
 
     void Lexer::Lex() {
         token_type state = token_type::null_type;
-        bool in_comment = false;
-        bool in_assign = false;
+        bool pre_comment = false;
+        bool pre_end_comment = false;
+        bool in_not_equal = false;
         line = 1;
         column = 1;
         std::string tmp_value = "";
         int tmp_column = 1;
         for (auto p = char_buff.begin(); p != char_buff.end();) {
-            if (in_comment) {
-                if (is_comment_end(*p)) {
-                    in_comment = false;
+            if (pre_comment) {
+                if (is_comment_begin(*p)) {
+                    state = token_type::multiline_comment_type;
+                    pre_comment = false;
                     ++p;
                     column++;
                     continue;
-                } else {
-                    if (is_newline(*p)) {
-                        line++;
-                        column = 1;
-                        ++p;
-                        continue;
-                    }
+                } else if (is_newline(*p)) {
+                    pre_comment = false;
+                    add_token_signal(line, column, "/");
+                    pre_comment = false;
                     ++p;
                     column++;
+                    continue;
+                } else if (is_comment_start(*p)) {
+                    ++p;
+                    add_token_signal(line, column, "/");
+                    column++;
+                    continue;
+                } else if (is_signal_digit(*p)) {
+                    tmp_value += "/";
+                    pre_comment = false;
+                    state = token_type::signal_type;
                     continue;
                 }
             }
-            if(in_assign){
-                if(is_assign_end(*p)){
-                    in_assign = false;
-                    ++p;
-                    column++;
-                    add_token_signal(line, tmp_column, ":=");
-                    tmp_column = 0;
-                    continue;
-                }else{
-                    in_assign = false;
-                    ++p;
-                    column++;
-                    add_token_error(line, tmp_column, ":");
-                    tmp_column = 0;
-                    continue;
+            if (in_not_equal) {
+                in_not_equal = false;
+                ++p;
+                column++;
+                if (is_not_equal_end(*p)) {
+                    add_token_signal(line, tmp_column, "~=");
+                } else {
+                    add_token_error(line, tmp_column, "~");
                 }
+                tmp_column = 0;
+                continue;
             }
             switch (state) {
                 case token_type::null_type: {
@@ -131,28 +143,24 @@ namespace cm {
                         column = 1;
                         line++;
                         continue;
-                    } else if(is_assign_start(*p)){
+                    } else if (is_comment_start(*p)) {
+                        ++p;
+                        column++;
+                        pre_comment = true;
+                        continue;
+                    } else if (is_not_equal_start(*p)) {
                         ++p;
                         tmp_column = column;
-                        in_assign = true;
                         column++;
-                        continue;
-                    }
-                    else if (is_comment_start(*p)) {
-                        ++p;
-                        column++;
-                        in_comment = true;
+                        in_not_equal = true;
                         continue;
                     } else if (isdigit(*p)) {
                         state = token_type::number_type;
                         tmp_column = column;
                         continue;
                     } else if (is_signal_digit(*p)) {
-                        std::string sig = "";
-                        sig += *p;
-                        add_token_signal(line, column, sig);
-                        ++p;
-                        column++;
+                        state = token_type::signal_type;
+                        tmp_column = column;
                         continue;
                     } else if (is_letter(*p)) {
                         state = token_type::identifier_type;
@@ -166,6 +174,24 @@ namespace cm {
                         column++;
                         state = token_type::null_type;
                     }
+                    break;
+                }
+                case token_type::multiline_comment_type: {
+                    if (pre_end_comment) {
+                        if (is_comment_finish(*p)) {
+                            pre_end_comment = false;
+                            state = token_type::null_type;
+                        }
+                    }
+                    if (is_comment_end(*p)) {
+                        pre_end_comment = true;
+                    }
+                    if (is_newline(*p)) {
+                        line += 1;
+                        column = 0;
+                    }
+                    ++p;
+                    column++;
                     break;
                 }
                 case token_type::number_type: {
@@ -198,10 +224,36 @@ namespace cm {
                     tmp_column = 0;
                     break;
                 }
+                case token_type::signal_type: {
+                    if(is_signal_digit(*p)){
+                        tmp_value += *p;
+                        ++p;
+                        column++;
+                        continue;
+                    }
+                    std::string sig = "";
+                    for(auto ch : tmp_value){
+                        if(!is_signal(sig + ch)){
+                            add_token_signal(line, tmp_column, sig);
+                            sig = ch;
+                        }else{
+                            sig += ch;
+                        }
+                        tmp_column++;
+                    }
+
+                    if(!sig.empty()){
+                        add_token_signal(line, tmp_column, sig);
+                    }
+                    state = token_type::null_type;;
+                    tmp_value.clear();
+                    tmp_column = 0;
+                    break;
+                }
             }
         }
-        if (in_comment)
-            add_token_error(line, column, "{");
+        if (state == token_type::multiline_comment_type)
+            add_token_error(line, column, "Lack of */");
         if (tmp_value.empty())
             return;
         switch (state) {
@@ -218,7 +270,26 @@ namespace cm {
                 state = token_type::null_type;
                 break;
             }
+            case token_type::signal_type:{
+                std::string sig;
+                for(auto ch : sig){
+                    if(!is_signal(sig + ch)){
+                        add_token_signal(line, tmp_column, sig);
+                        sig = ch;
+                    }else{
+                        sig += ch;
+                    }
+                    tmp_column++;
+                }
+                if(!sig.empty()){
+                    add_token_signal(line, tmp_column, sig);
+                }
 
+                state = token_type::null_type;;
+                tmp_value.clear();
+                tmp_column = 0;
+                break;
+            }
         }
         tmp_value.clear();
     }

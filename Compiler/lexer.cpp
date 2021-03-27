@@ -255,7 +255,7 @@ void lexer::lex(const std::string &src) {
                 if (is_signal(sig + ch)) {
                     sig += ch;
                 } else {
-                    add_token_signal(line, sig);
+                    add_token_idn_signal(line, sig);
                     sig = ch;
                 }
             }

@@ -18,6 +18,7 @@ namespace cm{
         number_type,
         identifier_type,
         null_type,
+        multiline_comment_type,
         error_type,
     };
 
@@ -29,6 +30,7 @@ namespace cm{
         LEFT_P, RIGHT_P,
         LEFT_S, RIGHT_S,
         LEFT_B, RIGHT_B,
+        COMMA,SEMICOLON,
     };
 
     enum class keyword_type {
