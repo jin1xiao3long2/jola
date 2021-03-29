@@ -159,6 +159,21 @@ tinyLexer/fast:
 	cd /d C:\CPP\2020_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Compiler\Experience\Tiny\CMakeFiles\tinyLexer.dir\build.make Compiler/Experience/Tiny/CMakeFiles/tinyLexer.dir/build
 .PHONY : tinyLexer/fast
 
+# Convenience name for target.
+Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/rule:
+	cd /d C:\CPP\2020_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/rule
+.PHONY : Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/rule
+
+# Convenience name for target.
+tinyParser: Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/rule
+
+.PHONY : tinyParser
+
+# fast build rule for target.
+tinyParser/fast:
+	cd /d C:\CPP\2020_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Compiler\Experience\Tiny\CMakeFiles\tinyParser.dir\build.make Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/build
+.PHONY : tinyParser/fast
+
 Tiny_Lexer.obj: Tiny_Lexer.cpp.obj
 
 .PHONY : Tiny_Lexer.obj
@@ -185,6 +200,60 @@ Tiny_Lexer.s: Tiny_Lexer.cpp.s
 Tiny_Lexer.cpp.s:
 	cd /d C:\CPP\2020_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Compiler\Experience\Tiny\CMakeFiles\tinyLexer.dir\build.make Compiler/Experience/Tiny/CMakeFiles/tinyLexer.dir/Tiny_Lexer.cpp.s
 .PHONY : Tiny_Lexer.cpp.s
+
+Tiny_Nodes.obj: Tiny_Nodes.cpp.obj
+
+.PHONY : Tiny_Nodes.obj
+
+# target to build an object file
+Tiny_Nodes.cpp.obj:
+	cd /d C:\CPP\2020_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Compiler\Experience\Tiny\CMakeFiles\tinyParser.dir\build.make Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/Tiny_Nodes.cpp.obj
+.PHONY : Tiny_Nodes.cpp.obj
+
+Tiny_Nodes.i: Tiny_Nodes.cpp.i
+
+.PHONY : Tiny_Nodes.i
+
+# target to preprocess a source file
+Tiny_Nodes.cpp.i:
+	cd /d C:\CPP\2020_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Compiler\Experience\Tiny\CMakeFiles\tinyParser.dir\build.make Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/Tiny_Nodes.cpp.i
+.PHONY : Tiny_Nodes.cpp.i
+
+Tiny_Nodes.s: Tiny_Nodes.cpp.s
+
+.PHONY : Tiny_Nodes.s
+
+# target to generate assembly for a file
+Tiny_Nodes.cpp.s:
+	cd /d C:\CPP\2020_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Compiler\Experience\Tiny\CMakeFiles\tinyParser.dir\build.make Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/Tiny_Nodes.cpp.s
+.PHONY : Tiny_Nodes.cpp.s
+
+Tiny_Parser.obj: Tiny_Parser.cpp.obj
+
+.PHONY : Tiny_Parser.obj
+
+# target to build an object file
+Tiny_Parser.cpp.obj:
+	cd /d C:\CPP\2020_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Compiler\Experience\Tiny\CMakeFiles\tinyParser.dir\build.make Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/Tiny_Parser.cpp.obj
+.PHONY : Tiny_Parser.cpp.obj
+
+Tiny_Parser.i: Tiny_Parser.cpp.i
+
+.PHONY : Tiny_Parser.i
+
+# target to preprocess a source file
+Tiny_Parser.cpp.i:
+	cd /d C:\CPP\2020_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Compiler\Experience\Tiny\CMakeFiles\tinyParser.dir\build.make Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/Tiny_Parser.cpp.i
+.PHONY : Tiny_Parser.cpp.i
+
+Tiny_Parser.s: Tiny_Parser.cpp.s
+
+.PHONY : Tiny_Parser.s
+
+# target to generate assembly for a file
+Tiny_Parser.cpp.s:
+	cd /d C:\CPP\2020_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Compiler\Experience\Tiny\CMakeFiles\tinyParser.dir\build.make Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/Tiny_Parser.cpp.s
+.PHONY : Tiny_Parser.cpp.s
 
 Tiny_Signal.obj: Tiny_Signal.cpp.obj
 
@@ -249,10 +318,17 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... tinyLexer
+	@echo ... tinyParser
 	@echo ... tntestLexer
 	@echo ... Tiny_Lexer.obj
 	@echo ... Tiny_Lexer.i
 	@echo ... Tiny_Lexer.s
+	@echo ... Tiny_Nodes.obj
+	@echo ... Tiny_Nodes.i
+	@echo ... Tiny_Nodes.s
+	@echo ... Tiny_Parser.obj
+	@echo ... Tiny_Parser.i
+	@echo ... Tiny_Parser.s
 	@echo ... Tiny_Signal.obj
 	@echo ... Tiny_Signal.i
 	@echo ... Tiny_Signal.s

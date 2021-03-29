@@ -224,6 +224,7 @@ Compiler/Experience/Cminus/clean: Compiler/Experience/Cminus/CMakeFiles/Lexertes
 # Recursive "all" directory target.
 Compiler/Experience/Tiny/all: Compiler/Experience/Tiny/CMakeFiles/tntestLexer.dir/all
 Compiler/Experience/Tiny/all: Compiler/Experience/Tiny/CMakeFiles/tinyLexer.dir/all
+Compiler/Experience/Tiny/all: Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/all
 
 .PHONY : Compiler/Experience/Tiny/all
 
@@ -235,6 +236,7 @@ Compiler/Experience/Tiny/preinstall:
 # Recursive "clean" directory target.
 Compiler/Experience/Tiny/clean: Compiler/Experience/Tiny/CMakeFiles/tntestLexer.dir/clean
 Compiler/Experience/Tiny/clean: Compiler/Experience/Tiny/CMakeFiles/tinyLexer.dir/clean
+Compiler/Experience/Tiny/clean: Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/clean
 
 .PHONY : Compiler/Experience/Tiny/clean
 
@@ -283,7 +285,7 @@ tcode/clean: tcode/CMakeFiles/overflow.dir/clean
 CMakeFiles/test1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=92,93 "Built target test1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=89,90 "Built target test1"
 .PHONY : CMakeFiles/test1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -310,7 +312,7 @@ CMakeFiles/test1.dir/clean:
 CMakeFiles/code.dir/all: CMakeFiles/lib.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=50,51 "Built target code"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=49,50 "Built target code"
 .PHONY : CMakeFiles/code.dir/all
 
 # Build rule for subdir invocation for target.
@@ -337,12 +339,12 @@ CMakeFiles/code.dir/clean:
 CMakeFiles/test.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=90,91 "Built target test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=88 "Built target test"
 .PHONY : CMakeFiles/test.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\2020_5\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\2020_5\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\2020_5\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/test.dir/rule
@@ -364,12 +366,12 @@ CMakeFiles/test.dir/clean:
 CMakeFiles/OS.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OS.dir\build.make CMakeFiles/OS.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OS.dir\build.make CMakeFiles/OS.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=38,39 "Built target OS"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=37 "Built target OS"
 .PHONY : CMakeFiles/OS.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/OS.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\2020_5\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\2020_5\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/OS.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\2020_5\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/OS.dir/rule
@@ -418,7 +420,7 @@ CMakeFiles/5_31_algo_C.dir/clean:
 CMakeFiles/lang-debug.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lang-debug.dir\build.make CMakeFiles/lang-debug.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lang-debug.dir\build.make CMakeFiles/lang-debug.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=67,68 "Built target lang-debug"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=65,66 "Built target lang-debug"
 .PHONY : CMakeFiles/lang-debug.dir/all
 
 # Build rule for subdir invocation for target.
@@ -445,7 +447,7 @@ CMakeFiles/lang-debug.dir/clean:
 CMakeFiles/AD_6.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AD_6.dir\build.make CMakeFiles/AD_6.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AD_6.dir\build.make CMakeFiles/AD_6.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=16,17 "Built target AD_6"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target AD_6"
 .PHONY : CMakeFiles/AD_6.dir/all
 
 # Build rule for subdir invocation for target.
@@ -526,12 +528,12 @@ CMakeFiles/Huffman.dir/clean:
 CMakeFiles/OS1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OS1.dir\build.make CMakeFiles/OS1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OS1.dir\build.make CMakeFiles/OS1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=40,41,42,43 "Built target OS1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=38,39,40,41,42 "Built target OS1"
 .PHONY : CMakeFiles/OS1.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/OS1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\2020_5\cmake-build-debug\CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\2020_5\cmake-build-debug\CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/OS1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\2020_5\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/OS1.dir/rule
@@ -607,7 +609,7 @@ CMakeFiles/AD_2.dir/clean:
 CMakeFiles/random.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\random.dir\build.make CMakeFiles/random.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\random.dir\build.make CMakeFiles/random.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=82,83 "Built target random"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=80,81 "Built target random"
 .PHONY : CMakeFiles/random.dir/all
 
 # Build rule for subdir invocation for target.
@@ -661,12 +663,12 @@ CMakeFiles/AD_3.dir/clean:
 CMakeFiles/AD_4.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AD_4.dir\build.make CMakeFiles/AD_4.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AD_4.dir\build.make CMakeFiles/AD_4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=12,13 "Built target AD_4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=12 "Built target AD_4"
 .PHONY : CMakeFiles/AD_4.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/AD_4.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\2020_5\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\2020_5\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/AD_4.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\2020_5\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/AD_4.dir/rule
@@ -688,7 +690,7 @@ CMakeFiles/AD_4.dir/clean:
 CMakeFiles/AD_5.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AD_5.dir\build.make CMakeFiles/AD_5.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AD_5.dir\build.make CMakeFiles/AD_5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=14,15 "Built target AD_5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target AD_5"
 .PHONY : CMakeFiles/AD_5.dir/all
 
 # Build rule for subdir invocation for target.
@@ -715,7 +717,7 @@ CMakeFiles/AD_5.dir/clean:
 CMakeFiles/AD_7.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AD_7.dir\build.make CMakeFiles/AD_7.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AD_7.dir\build.make CMakeFiles/AD_7.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=18,19 "Built target AD_7"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target AD_7"
 .PHONY : CMakeFiles/AD_7.dir/all
 
 # Build rule for subdir invocation for target.
@@ -742,12 +744,12 @@ CMakeFiles/AD_7.dir/clean:
 CMakeFiles/AD_8.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AD_8.dir\build.make CMakeFiles/AD_8.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AD_8.dir\build.make CMakeFiles/AD_8.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=20 "Built target AD_8"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target AD_8"
 .PHONY : CMakeFiles/AD_8.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/AD_8.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\2020_5\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\2020_5\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/AD_8.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\2020_5\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/AD_8.dir/rule
@@ -823,7 +825,7 @@ CMakeFiles/AD_10.dir/clean:
 CMakeFiles/play.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\play.dir\build.make CMakeFiles/play.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\play.dir\build.make CMakeFiles/play.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=79,80 "Built target play"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=76,77 "Built target play"
 .PHONY : CMakeFiles/play.dir/all
 
 # Build rule for subdir invocation for target.
@@ -850,12 +852,12 @@ CMakeFiles/play.dir/clean:
 CMakeFiles/playground.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\playground.dir\build.make CMakeFiles/playground.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\playground.dir\build.make CMakeFiles/playground.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=81 "Built target playground"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=78,79 "Built target playground"
 .PHONY : CMakeFiles/playground.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/playground.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\2020_5\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\2020_5\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/playground.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\2020_5\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/playground.dir/rule
@@ -877,7 +879,7 @@ CMakeFiles/playground.dir/clean:
 CMakeFiles/relearn.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\relearn.dir\build.make CMakeFiles/relearn.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\relearn.dir\build.make CMakeFiles/relearn.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=86,87 "Built target relearn"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=84,85 "Built target relearn"
 .PHONY : CMakeFiles/relearn.dir/all
 
 # Build rule for subdir invocation for target.
@@ -904,7 +906,7 @@ CMakeFiles/relearn.dir/clean:
 CMakeFiles/mb.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\mb.dir\build.make CMakeFiles/mb.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\mb.dir\build.make CMakeFiles/mb.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=73,74 "Built target mb"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=71,72 "Built target mb"
 .PHONY : CMakeFiles/mb.dir/all
 
 # Build rule for subdir invocation for target.
@@ -931,7 +933,7 @@ CMakeFiles/mb.dir/clean:
 CMakeFiles/lexer.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lexer.dir\build.make CMakeFiles/lexer.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lexer.dir\build.make CMakeFiles/lexer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=69,70 "Built target lexer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=67,68 "Built target lexer"
 .PHONY : CMakeFiles/lexer.dir/all
 
 # Build rule for subdir invocation for target.
@@ -958,7 +960,7 @@ CMakeFiles/lexer.dir/clean:
 CMakeFiles/delnbsp.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\delnbsp.dir\build.make CMakeFiles/delnbsp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\delnbsp.dir\build.make CMakeFiles/delnbsp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=54,55 "Built target delnbsp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=52,53 "Built target delnbsp"
 .PHONY : CMakeFiles/delnbsp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -985,7 +987,7 @@ CMakeFiles/delnbsp.dir/clean:
 CMakeFiles/lib.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lib.dir\build.make CMakeFiles/lib.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lib.dir\build.make CMakeFiles/lib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=71,72 "Built target lib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=69,70 "Built target lib"
 .PHONY : CMakeFiles/lib.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1012,7 +1014,7 @@ CMakeFiles/lib.dir/clean:
 tcode/CMakeFiles/implicit.dir/all:
 	$(MAKE) $(MAKESILENT) -f tcode\CMakeFiles\implicit.dir\build.make tcode/CMakeFiles/implicit.dir/depend
 	$(MAKE) $(MAKESILENT) -f tcode\CMakeFiles\implicit.dir\build.make tcode/CMakeFiles/implicit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=65,66 "Built target implicit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=63,64 "Built target implicit"
 .PHONY : tcode/CMakeFiles/implicit.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1039,7 +1041,7 @@ tcode/CMakeFiles/implicit.dir/clean:
 tcode/CMakeFiles/exception.dir/all:
 	$(MAKE) $(MAKESILENT) -f tcode\CMakeFiles\exception.dir\build.make tcode/CMakeFiles/exception.dir/depend
 	$(MAKE) $(MAKESILENT) -f tcode\CMakeFiles\exception.dir\build.make tcode/CMakeFiles/exception.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=56,57 "Built target exception"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=54,55 "Built target exception"
 .PHONY : tcode/CMakeFiles/exception.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1093,12 +1095,12 @@ tcode/CMakeFiles/while.dir/clean:
 tcode/CMakeFiles/if.dir/all:
 	$(MAKE) $(MAKESILENT) -f tcode\CMakeFiles\if.dir\build.make tcode/CMakeFiles/if.dir/depend
 	$(MAKE) $(MAKESILENT) -f tcode\CMakeFiles\if.dir\build.make tcode/CMakeFiles/if.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=63,64 "Built target if"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=62 "Built target if"
 .PHONY : tcode/CMakeFiles/if.dir/all
 
 # Build rule for subdir invocation for target.
 tcode/CMakeFiles/if.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\2020_5\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\2020_5\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tcode/CMakeFiles/if.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\2020_5\cmake-build-debug\CMakeFiles 0
 .PHONY : tcode/CMakeFiles/if.dir/rule
@@ -1120,12 +1122,12 @@ tcode/CMakeFiles/if.dir/clean:
 tcode/CMakeFiles/expr.dir/all:
 	$(MAKE) $(MAKESILENT) -f tcode\CMakeFiles\expr.dir\build.make tcode/CMakeFiles/expr.dir/depend
 	$(MAKE) $(MAKESILENT) -f tcode\CMakeFiles\expr.dir\build.make tcode/CMakeFiles/expr.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=60 "Built target expr"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=58,59 "Built target expr"
 .PHONY : tcode/CMakeFiles/expr.dir/all
 
 # Build rule for subdir invocation for target.
 tcode/CMakeFiles/expr.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\2020_5\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\2020_5\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tcode/CMakeFiles/expr.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\2020_5\cmake-build-debug\CMakeFiles 0
 .PHONY : tcode/CMakeFiles/expr.dir/rule
@@ -1147,7 +1149,7 @@ tcode/CMakeFiles/expr.dir/clean:
 tcode/CMakeFiles/switch.dir/all:
 	$(MAKE) $(MAKESILENT) -f tcode\CMakeFiles\switch.dir\build.make tcode/CMakeFiles/switch.dir/depend
 	$(MAKE) $(MAKESILENT) -f tcode\CMakeFiles\switch.dir\build.make tcode/CMakeFiles/switch.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=88,89 "Built target switch"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=86,87 "Built target switch"
 .PHONY : tcode/CMakeFiles/switch.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1174,7 +1176,7 @@ tcode/CMakeFiles/switch.dir/clean:
 tcode/CMakeFiles/for.dir/all:
 	$(MAKE) $(MAKESILENT) -f tcode\CMakeFiles\for.dir\build.make tcode/CMakeFiles/for.dir/depend
 	$(MAKE) $(MAKESILENT) -f tcode\CMakeFiles\for.dir\build.make tcode/CMakeFiles/for.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=61,62 "Built target for"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=60,61 "Built target for"
 .PHONY : tcode/CMakeFiles/for.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1201,7 +1203,7 @@ tcode/CMakeFiles/for.dir/clean:
 tcode/CMakeFiles/range_for.dir/all:
 	$(MAKE) $(MAKESILENT) -f tcode\CMakeFiles\range_for.dir\build.make tcode/CMakeFiles/range_for.dir/depend
 	$(MAKE) $(MAKESILENT) -f tcode\CMakeFiles\range_for.dir\build.make tcode/CMakeFiles/range_for.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=84,85 "Built target range_for"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=82,83 "Built target range_for"
 .PHONY : tcode/CMakeFiles/range_for.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1228,7 +1230,7 @@ tcode/CMakeFiles/range_for.dir/clean:
 tcode/CMakeFiles/explicit.dir/all:
 	$(MAKE) $(MAKESILENT) -f tcode\CMakeFiles\explicit.dir\build.make tcode/CMakeFiles/explicit.dir/depend
 	$(MAKE) $(MAKESILENT) -f tcode\CMakeFiles\explicit.dir\build.make tcode/CMakeFiles/explicit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=58,59 "Built target explicit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=56,57 "Built target explicit"
 .PHONY : tcode/CMakeFiles/explicit.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1255,7 +1257,7 @@ tcode/CMakeFiles/explicit.dir/clean:
 tcode/CMakeFiles/operator.dir/all:
 	$(MAKE) $(MAKESILENT) -f tcode\CMakeFiles\operator.dir\build.make tcode/CMakeFiles/operator.dir/depend
 	$(MAKE) $(MAKESILENT) -f tcode\CMakeFiles\operator.dir\build.make tcode/CMakeFiles/operator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=75,76 "Built target operator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=73,74 "Built target operator"
 .PHONY : tcode/CMakeFiles/operator.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1282,12 +1284,12 @@ tcode/CMakeFiles/operator.dir/clean:
 tcode/CMakeFiles/overflow.dir/all:
 	$(MAKE) $(MAKESILENT) -f tcode\CMakeFiles\overflow.dir\build.make tcode/CMakeFiles/overflow.dir/depend
 	$(MAKE) $(MAKESILENT) -f tcode\CMakeFiles\overflow.dir\build.make tcode/CMakeFiles/overflow.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=77,78 "Built target overflow"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=75 "Built target overflow"
 .PHONY : tcode/CMakeFiles/overflow.dir/all
 
 # Build rule for subdir invocation for target.
 tcode/CMakeFiles/overflow.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\2020_5\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\2020_5\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tcode/CMakeFiles/overflow.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\2020_5\cmake-build-debug\CMakeFiles 0
 .PHONY : tcode/CMakeFiles/overflow.dir/rule
@@ -1309,7 +1311,7 @@ tcode/CMakeFiles/overflow.dir/clean:
 Compiler/CMakeFiles/LexerTest.dir/all:
 	$(MAKE) $(MAKESILENT) -f Compiler\CMakeFiles\LexerTest.dir\build.make Compiler/CMakeFiles/LexerTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f Compiler\CMakeFiles\LexerTest.dir\build.make Compiler/CMakeFiles/LexerTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=30,31 "Built target LexerTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=29,30 "Built target LexerTest"
 .PHONY : Compiler/CMakeFiles/LexerTest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1336,12 +1338,12 @@ Compiler/CMakeFiles/LexerTest.dir/clean:
 Compiler/CMakeFiles/Lexer.dir/all:
 	$(MAKE) $(MAKESILENT) -f Compiler\CMakeFiles\Lexer.dir\build.make Compiler/CMakeFiles/Lexer.dir/depend
 	$(MAKE) $(MAKESILENT) -f Compiler\CMakeFiles\Lexer.dir\build.make Compiler/CMakeFiles/Lexer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target Lexer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=25 "Built target Lexer"
 .PHONY : Compiler/CMakeFiles/Lexer.dir/all
 
 # Build rule for subdir invocation for target.
 Compiler/CMakeFiles/Lexer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\2020_5\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\2020_5\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Compiler/CMakeFiles/Lexer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\2020_5\cmake-build-debug\CMakeFiles 0
 .PHONY : Compiler/CMakeFiles/Lexer.dir/rule
@@ -1364,7 +1366,7 @@ Compiler/CMakeFiles/ParserTest.dir/all: Compiler/CMakeFiles/LibLexer.dir/all
 Compiler/CMakeFiles/ParserTest.dir/all: Compiler/CMakeFiles/LibParser.dir/all
 	$(MAKE) $(MAKESILENT) -f Compiler\CMakeFiles\ParserTest.dir\build.make Compiler/CMakeFiles/ParserTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f Compiler\CMakeFiles\ParserTest.dir\build.make Compiler/CMakeFiles/ParserTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=46,47 "Built target ParserTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=45,46 "Built target ParserTest"
 .PHONY : Compiler/CMakeFiles/ParserTest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1391,7 +1393,7 @@ Compiler/CMakeFiles/ParserTest.dir/clean:
 Compiler/CMakeFiles/Parser.dir/all:
 	$(MAKE) $(MAKESILENT) -f Compiler\CMakeFiles\Parser.dir\build.make Compiler/CMakeFiles/Parser.dir/depend
 	$(MAKE) $(MAKESILENT) -f Compiler\CMakeFiles\Parser.dir\build.make Compiler/CMakeFiles/Parser.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=44,45 "Built target Parser"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=43,44 "Built target Parser"
 .PHONY : Compiler/CMakeFiles/Parser.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1418,12 +1420,12 @@ Compiler/CMakeFiles/Parser.dir/clean:
 Compiler/CMakeFiles/compilerstest.dir/all:
 	$(MAKE) $(MAKESILENT) -f Compiler\CMakeFiles\compilerstest.dir\build.make Compiler/CMakeFiles/compilerstest.dir/depend
 	$(MAKE) $(MAKESILENT) -f Compiler\CMakeFiles\compilerstest.dir\build.make Compiler/CMakeFiles/compilerstest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=52,53 "Built target compilerstest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=51 "Built target compilerstest"
 .PHONY : Compiler/CMakeFiles/compilerstest.dir/all
 
 # Build rule for subdir invocation for target.
 Compiler/CMakeFiles/compilerstest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\2020_5\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\2020_5\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Compiler/CMakeFiles/compilerstest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\2020_5\cmake-build-debug\CMakeFiles 0
 .PHONY : Compiler/CMakeFiles/compilerstest.dir/rule
@@ -1445,7 +1447,7 @@ Compiler/CMakeFiles/compilerstest.dir/clean:
 Compiler/CMakeFiles/LibLexer.dir/all:
 	$(MAKE) $(MAKESILENT) -f Compiler\CMakeFiles\LibLexer.dir\build.make Compiler/CMakeFiles/LibLexer.dir/depend
 	$(MAKE) $(MAKESILENT) -f Compiler\CMakeFiles\LibLexer.dir\build.make Compiler/CMakeFiles/LibLexer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=34,35 "Built target LibLexer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=33,34 "Built target LibLexer"
 .PHONY : Compiler/CMakeFiles/LibLexer.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1472,7 +1474,7 @@ Compiler/CMakeFiles/LibLexer.dir/clean:
 Compiler/CMakeFiles/SimpleParser.dir/all:
 	$(MAKE) $(MAKESILENT) -f Compiler\CMakeFiles\SimpleParser.dir\build.make Compiler/CMakeFiles/SimpleParser.dir/depend
 	$(MAKE) $(MAKESILENT) -f Compiler\CMakeFiles\SimpleParser.dir\build.make Compiler/CMakeFiles/SimpleParser.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=48,49 "Built target SimpleParser"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=47,48 "Built target SimpleParser"
 .PHONY : Compiler/CMakeFiles/SimpleParser.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1499,7 +1501,7 @@ Compiler/CMakeFiles/SimpleParser.dir/clean:
 Compiler/CMakeFiles/LibParser.dir/all:
 	$(MAKE) $(MAKESILENT) -f Compiler\CMakeFiles\LibParser.dir\build.make Compiler/CMakeFiles/LibParser.dir/depend
 	$(MAKE) $(MAKESILENT) -f Compiler\CMakeFiles\LibParser.dir\build.make Compiler/CMakeFiles/LibParser.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=36,37 "Built target LibParser"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=35,36 "Built target LibParser"
 .PHONY : Compiler/CMakeFiles/LibParser.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1553,7 +1555,7 @@ Compiler/Experience/Tiny/CMakeFiles/tntestLexer.dir/clean:
 Compiler/Experience/Tiny/CMakeFiles/tinyLexer.dir/all:
 	$(MAKE) $(MAKESILENT) -f Compiler\Experience\Tiny\CMakeFiles\tinyLexer.dir\build.make Compiler/Experience/Tiny/CMakeFiles/tinyLexer.dir/depend
 	$(MAKE) $(MAKESILENT) -f Compiler\Experience\Tiny\CMakeFiles\tinyLexer.dir\build.make Compiler/Experience/Tiny/CMakeFiles/tinyLexer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=94,95,96 "Built target tinyLexer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=91,92,93 "Built target tinyLexer"
 .PHONY : Compiler/Experience/Tiny/CMakeFiles/tinyLexer.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1574,13 +1576,40 @@ Compiler/Experience/Tiny/CMakeFiles/tinyLexer.dir/clean:
 .PHONY : Compiler/Experience/Tiny/CMakeFiles/tinyLexer.dir/clean
 
 #=============================================================================
+# Target rules for target Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir
+
+# All Build rule for target.
+Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/all:
+	$(MAKE) $(MAKESILENT) -f Compiler\Experience\Tiny\CMakeFiles\tinyParser.dir\build.make Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/depend
+	$(MAKE) $(MAKESILENT) -f Compiler\Experience\Tiny\CMakeFiles\tinyParser.dir\build.make Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=94,95,96 "Built target tinyParser"
+.PHONY : Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/all
+
+# Build rule for subdir invocation for target.
+Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\2020_5\cmake-build-debug\CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\2020_5\cmake-build-debug\CMakeFiles 0
+.PHONY : Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/rule
+
+# Convenience name for target.
+tinyParser: Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/rule
+
+.PHONY : tinyParser
+
+# clean rule for target.
+Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Compiler\Experience\Tiny\CMakeFiles\tinyParser.dir\build.make Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/clean
+.PHONY : Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/clean
+
+#=============================================================================
 # Target rules for target Compiler/Experience/Cminus/CMakeFiles/LexerLib.dir
 
 # All Build rule for target.
 Compiler/Experience/Cminus/CMakeFiles/LexerLib.dir/all:
 	$(MAKE) $(MAKESILENT) -f Compiler\Experience\Cminus\CMakeFiles\LexerLib.dir\build.make Compiler/Experience/Cminus/CMakeFiles/LexerLib.dir/depend
 	$(MAKE) $(MAKESILENT) -f Compiler\Experience\Cminus\CMakeFiles\LexerLib.dir\build.make Compiler/Experience/Cminus/CMakeFiles/LexerLib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=27,28,29 "Built target LexerLib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=26,27,28 "Built target LexerLib"
 .PHONY : Compiler/Experience/Cminus/CMakeFiles/LexerLib.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1607,7 +1636,7 @@ Compiler/Experience/Cminus/CMakeFiles/LexerLib.dir/clean:
 Compiler/Experience/Cminus/CMakeFiles/Lexertest.dir/all: Compiler/Experience/Cminus/CMakeFiles/LexerLib.dir/all
 	$(MAKE) $(MAKESILENT) -f Compiler\Experience\Cminus\CMakeFiles\Lexertest.dir\build.make Compiler/Experience/Cminus/CMakeFiles/Lexertest.dir/depend
 	$(MAKE) $(MAKESILENT) -f Compiler\Experience\Cminus\CMakeFiles\Lexertest.dir\build.make Compiler/Experience/Cminus/CMakeFiles/Lexertest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=32,33 "Built target Lexertest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=31,32 "Built target Lexertest"
 .PHONY : Compiler/Experience/Cminus/CMakeFiles/Lexertest.dir/all
 
 # Build rule for subdir invocation for target.

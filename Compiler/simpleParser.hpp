@@ -453,8 +453,6 @@ private:
 public:
     Unit *ParseUnit();
 
-
     explicit Parser(std::deque<token_base *> tokens) : tokens(std::move(tokens)) {}
-
 };
 

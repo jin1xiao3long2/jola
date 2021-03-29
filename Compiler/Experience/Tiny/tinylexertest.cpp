@@ -71,6 +71,8 @@ int main(){
         }
     }
     for(auto iter = show_tokens.begin(); iter != show_tokens.end(); iter++){
+        if((*iter)->get_type() != tn::token_type::null_type)
+            std::cout << "\t";
         (*iter)->show(std::cout);
         std::cout << std::endl;
     }
