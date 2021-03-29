@@ -24,11 +24,6 @@ public:
         return tn::token_type::null_type;
     }
 
-    std::ostream & show(std::ostream &out) override{
-        out << line << ":" << info;
-        return out;
-    }
-
 };
 
 int main(){
@@ -51,7 +46,7 @@ int main(){
         l++;
     }
     lineinfo.push_back(new lineInfo(l, 0, "EOF"));
-    std::cout << sp << std::endl;
+//    std::cout << sp << std::endl;
 
     tn::Lexer * lexer = new tn::Lexer(sp);
     lexer->Lex();
@@ -73,8 +68,7 @@ int main(){
     for(auto iter = show_tokens.begin(); iter != show_tokens.end(); iter++){
         if((*iter)->get_type() != tn::token_type::null_type)
             std::cout << "\t";
-        (*iter)->show(std::cout);
-        std::cout << std::endl;
+        std::cout << (*iter)->get_show_info() << std::endl;
     }
 
 }

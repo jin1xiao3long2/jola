@@ -1,0 +1,3 @@
+C:\Users\XM\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.7717.62\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\tntestParser.dir/objects.a
+C:\BC\C\mingw64\bin\ar.exe cr CMakeFiles\tntestParser.dir/objects.a @CMakeFiles\tntestParser.dir\objects1.rsp
+C:\BC\C\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\tntestParser.dir/objects.a -Wl,--no-whole-archive  -o tntestParser.exe -Wl,--out-implib,libtntestParser.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\tntestParser.dir\linklibs.rsp

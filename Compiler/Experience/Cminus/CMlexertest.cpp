@@ -104,8 +104,7 @@ int main(int argc, char** argv){
     for(auto iter = show_tokens.begin(); iter != show_tokens.end(); iter++){
         if(!((*iter)->get_type() == cm::token_type::null_type))
             std::cout << "\t";
-        (*iter)->show(std::cout);
-        std::cout << std::endl;
+        std::cout << (*iter)->get_show_info() << std::endl;
     }
 //write into files
     write_info(show_tokens, "c1.txt");

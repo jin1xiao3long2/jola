@@ -62,7 +62,7 @@ namespace tn{
 
     private:
         std::deque<token_base *> tokens;
-
+        node_base *start;
 
 //        Support Function
         bool IsEnd(); //check if tokens.empty
@@ -122,6 +122,14 @@ namespace tn{
 
     public:
         explicit Parser(const std::deque<token_base *> Tokens) : tokens(std::move(Tokens)) {};
+
+        void parse(){
+            start = Parse_Program();
+        }
+
+        void show_info(){
+            start->Eval(1);
+        }
     };
 
 }

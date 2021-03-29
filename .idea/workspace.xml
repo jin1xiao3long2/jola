@@ -21,6 +21,7 @@
       <config projectName="pName" targetName="operator" />
       <config projectName="pName" targetName="relearn" />
       <config projectName="pName" targetName="play" />
+      <config projectName="pName" targetName="tntestParser" />
       <config projectName="pName" targetName="OS" />
       <config projectName="pName" targetName="SimpleParser" />
       <config projectName="pName" targetName="Lexertest" />
@@ -62,20 +63,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f703466d-a41b-4526-ad29-97b132f0de9f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Compiler/Experience/Tiny/Tiny_Nodes.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Compiler/Experience/Tiny/Tiny_Nodes.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Compiler/Experience/Tiny/Tiny_Parser.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Compiler/Experience/Tiny/Tiny_Parser.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Compiler/Experience/Tiny/store.tny" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Compiler/Experience/Tiny/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Compiler/Experience/Tiny/tinyparsertest.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Cminus/CM_Signal.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/Experience/Cminus/CM_Signal.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Cminus/CMlexertest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/Experience/Cminus/CMlexertest.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/Experience/Tiny/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/Tiny_Nodes.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/Experience/Tiny/Tiny_Nodes.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/Tiny_Nodes.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/Experience/Tiny/Tiny_Nodes.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/Tiny_Parser.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/Experience/Tiny/Tiny_Parser.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/Tiny_Parser.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/Experience/Tiny/Tiny_Parser.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/Tiny_Signal.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/Experience/Tiny/Tiny_Signal.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/sample.tny" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/Experience/Tiny/sample.tny" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/tinylexertest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/Experience/Tiny/tinylexertest.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/simpleParser.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/simpleParser.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_3.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_3.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_4.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_4.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_5.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_5.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_6.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_6.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_7.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_7.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_8.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_8.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_9.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_9.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Huffman.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Huffman.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OS.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OS.dir/progress.make" afterDir="false" />
@@ -94,7 +99,6 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test1.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test1.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/Lexer.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/Lexer.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/LexerTest.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/LexerTest.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/LibLexer.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/LibLexer.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/LibParser.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/LibParser.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/Parser.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/Parser.dir/progress.make" afterDir="false" />
@@ -102,11 +106,13 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/SimpleParser.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/SimpleParser.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/compilerstest.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/compilerstest.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Cminus/CMakeFiles/LexerLib.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Cminus/CMakeFiles/LexerLib.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Cminus/CMakeFiles/Lexertest.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Cminus/CMakeFiles/Lexertest.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Cminus/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Cminus/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyLexer.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyLexer.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tntestLexer.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tntestLexer.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/Tiny.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/Tiny.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/compiler_work.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/compiler_work.cbp" afterDir="false" />
@@ -122,7 +128,6 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/implicit.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/implicit.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/operator.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/operator.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/overflow.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/overflow.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/range_for.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/range_for.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/switch.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/switch.dir/progress.make" afterDir="false" />
     </list>
@@ -436,6 +441,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="tntestParser" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="tntestParser" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="tntestParser">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="while" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="while" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="while">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -496,6 +506,7 @@
       <item itemvalue="CMake Application.tinyLexer" />
       <item itemvalue="CMake Application.tinyParser" />
       <item itemvalue="CMake Application.tntestLexer" />
+      <item itemvalue="CMake Application.tntestParser" />
       <item itemvalue="CMake Application.test" />
       <item itemvalue="CMake Application.while" />
     </list>
@@ -639,7 +650,9 @@
       <workItem from="1616930940439" duration="1330000" />
       <workItem from="1616933110805" duration="4105000" />
       <workItem from="1616944736864" duration="2982000" />
-      <workItem from="1616979459664" duration="5824000" />
+      <workItem from="1616979459664" duration="9952000" />
+      <workItem from="1616992887385" duration="462000" />
+      <workItem from="1616998713202" duration="2912000" />
     </task>
     <task id="LOCAL-00001" summary="update C- lexer">
       <created>1616820192554</created>
@@ -662,9 +675,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Compiler/Experience/Tiny/tinylexertest.cpp</url>
-          <line>33</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/Compiler/Experience/Tiny/Tiny_Parser.cpp</url>
+          <line>79</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

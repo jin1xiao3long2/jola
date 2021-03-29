@@ -67,13 +67,15 @@ namespace tn{
 
         token_base(int l, int c) : line(l), column(c) {}
 
-        virtual std::ostream& show(std::ostream& out) = 0;
-
         virtual token_type get_type() const = 0;
 
         virtual ~token_base() = default;
 
         virtual std::string get_string() const = 0;
+
+        virtual std::string get_show_info() {
+            return std::string(line + ":" + this->get_string());
+        }
 
         int get_line() const { return line; }
 
@@ -104,10 +106,6 @@ namespace tn{
             return signal;
         }
 
-        std::ostream& show(std::ostream& out) override {
-            out << line << ":" << this->get_string();
-            return out;
-        }
     };
 
     class token_keyword final : public token_base{
@@ -134,9 +132,8 @@ namespace tn{
             return keyword;
         }
 
-        std::ostream& show(std::ostream& out) override {
-            out << line << ":reserved word:" << this->get_string();
-            return out;
+        std::string get_show_info() override{
+            return std::string(line + ":reserved word:" + this->get_string());
         }
     };
 
@@ -164,9 +161,8 @@ namespace tn{
 
         ~token_number() = default;
 
-        std::ostream& show(std::ostream& out) override {
-            out << line << ":NUM, val= "<< this->get_string();
-            return out;
+        std::string get_show_info() override{
+            return std::string(line + ":NUM, val=" + this->get_string());
         }
     };
 
@@ -192,9 +188,8 @@ namespace tn{
             return name;
         }
 
-        std::ostream& show(std::ostream& out) override {
-            out << line << ":ID,name= " << this->get_string();
-            return out;
+        std::string get_show_info() override{
+            return std::string(line + ":ID,name= " + this->get_string());
         }
     };
 
@@ -220,9 +215,8 @@ namespace tn{
 
         ~token_error() = default;
 
-        std::ostream& show(std::ostream& out) override {
-            out << line << ":ERROR:"<< this->get_string();
-            return out;
+        std::string get_show_info() override{
+            return std::string(line + ":ERROR:" + this->get_string());
         }
     };
 }

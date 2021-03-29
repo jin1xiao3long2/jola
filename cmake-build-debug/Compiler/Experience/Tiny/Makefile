@@ -160,6 +160,21 @@ tinyLexer/fast:
 .PHONY : tinyLexer/fast
 
 # Convenience name for target.
+Compiler/Experience/Tiny/CMakeFiles/tntestParser.dir/rule:
+	cd /d C:\CPP\2020_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Compiler/Experience/Tiny/CMakeFiles/tntestParser.dir/rule
+.PHONY : Compiler/Experience/Tiny/CMakeFiles/tntestParser.dir/rule
+
+# Convenience name for target.
+tntestParser: Compiler/Experience/Tiny/CMakeFiles/tntestParser.dir/rule
+
+.PHONY : tntestParser
+
+# fast build rule for target.
+tntestParser/fast:
+	cd /d C:\CPP\2020_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Compiler\Experience\Tiny\CMakeFiles\tntestParser.dir\build.make Compiler/Experience/Tiny/CMakeFiles/tntestParser.dir/build
+.PHONY : tntestParser/fast
+
+# Convenience name for target.
 Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/rule:
 	cd /d C:\CPP\2020_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/rule
 .PHONY : Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/rule
@@ -309,6 +324,33 @@ tinylexertest.cpp.s:
 	cd /d C:\CPP\2020_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Compiler\Experience\Tiny\CMakeFiles\tntestLexer.dir\build.make Compiler/Experience/Tiny/CMakeFiles/tntestLexer.dir/tinylexertest.cpp.s
 .PHONY : tinylexertest.cpp.s
 
+tinyparsertest.obj: tinyparsertest.cpp.obj
+
+.PHONY : tinyparsertest.obj
+
+# target to build an object file
+tinyparsertest.cpp.obj:
+	cd /d C:\CPP\2020_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Compiler\Experience\Tiny\CMakeFiles\tntestParser.dir\build.make Compiler/Experience/Tiny/CMakeFiles/tntestParser.dir/tinyparsertest.cpp.obj
+.PHONY : tinyparsertest.cpp.obj
+
+tinyparsertest.i: tinyparsertest.cpp.i
+
+.PHONY : tinyparsertest.i
+
+# target to preprocess a source file
+tinyparsertest.cpp.i:
+	cd /d C:\CPP\2020_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Compiler\Experience\Tiny\CMakeFiles\tntestParser.dir\build.make Compiler/Experience/Tiny/CMakeFiles/tntestParser.dir/tinyparsertest.cpp.i
+.PHONY : tinyparsertest.cpp.i
+
+tinyparsertest.s: tinyparsertest.cpp.s
+
+.PHONY : tinyparsertest.s
+
+# target to generate assembly for a file
+tinyparsertest.cpp.s:
+	cd /d C:\CPP\2020_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Compiler\Experience\Tiny\CMakeFiles\tntestParser.dir\build.make Compiler/Experience/Tiny/CMakeFiles/tntestParser.dir/tinyparsertest.cpp.s
+.PHONY : tinyparsertest.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -320,6 +362,7 @@ help:
 	@echo ... tinyLexer
 	@echo ... tinyParser
 	@echo ... tntestLexer
+	@echo ... tntestParser
 	@echo ... Tiny_Lexer.obj
 	@echo ... Tiny_Lexer.i
 	@echo ... Tiny_Lexer.s
@@ -335,6 +378,9 @@ help:
 	@echo ... tinylexertest.obj
 	@echo ... tinylexertest.i
 	@echo ... tinylexertest.s
+	@echo ... tinyparsertest.obj
+	@echo ... tinyparsertest.i
+	@echo ... tinyparsertest.s
 .PHONY : help
 
 

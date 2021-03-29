@@ -754,6 +754,19 @@ tinyLexer/fast:
 .PHONY : tinyLexer/fast
 
 #=============================================================================
+# Target rules for targets named tntestParser
+
+# Build rule for target.
+tntestParser: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tntestParser
+.PHONY : tntestParser
+
+# fast build rule for target.
+tntestParser/fast:
+	$(MAKE) $(MAKESILENT) -f Compiler\Experience\Tiny\CMakeFiles\tntestParser.dir\build.make Compiler/Experience/Tiny/CMakeFiles/tntestParser.dir/build
+.PHONY : tntestParser/fast
+
+#=============================================================================
 # Target rules for targets named tinyParser
 
 # Build rule for target.
@@ -1660,6 +1673,7 @@ help:
 	@echo ... tinyLexer
 	@echo ... tinyParser
 	@echo ... tntestLexer
+	@echo ... tntestParser
 	@echo ... while
 	@echo ... 5_31algo_C.obj
 	@echo ... 5_31algo_C.i

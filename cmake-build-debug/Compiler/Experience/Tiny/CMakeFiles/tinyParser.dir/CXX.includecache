@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../Compiler/Experience/Tiny/Tiny_Nodes.hpp
+Tiny_Signal.hpp
+-
+
+../Compiler/Experience/Tiny/Tiny_Signal.hpp
+unordered_map
+-
+unordered_set
+-
+iostream
+-
+
+C:/CPP/2020_5/Compiler/Experience/Tiny/Tiny_Nodes.cpp
+Tiny_Nodes.hpp
+-
+

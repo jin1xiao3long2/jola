@@ -71,8 +71,6 @@ namespace cm{
 
         token_base(int l, int c) : line(l), column(c) {}
 
-        virtual std::ostream& show(std::ostream& out) = 0;
-
         virtual token_type get_type() const = 0;
 
         virtual ~token_base() = default;
@@ -110,10 +108,6 @@ namespace cm{
             return signal;
         }
 
-        std::ostream& show(std::ostream& out) override {
-            out << line << ":" << this->get_string();
-            return out;
-        }
 
         std::string  get_show_info() const override{
             return std::string(std::to_string(line) + ":" + this->get_string());
@@ -142,11 +136,6 @@ namespace cm{
 
         keyword_type get_value() const{
             return keyword;
-        }
-
-        std::ostream& show(std::ostream& out) override {
-            out << line << ":reserved word:" << this->get_string();
-            return out;
         }
 
         std::string  get_show_info() const override{
@@ -178,11 +167,6 @@ namespace cm{
 
         ~token_number() = default;
 
-        std::ostream& show(std::ostream& out) override {
-            out << line << ":NUM, val= "<< this->get_string();
-            return out;
-        }
-
         std::string  get_show_info() const override{
             return std::string(std::to_string(line) + ":Num, val= " + this->get_string());
         }
@@ -208,11 +192,6 @@ namespace cm{
 
         std::string get_value() const{
             return name;
-        }
-
-        std::ostream& show(std::ostream& out) override {
-            out << line << ":ID,name= " << this->get_string();
-            return out;
         }
 
         std::string  get_show_info() const override{
@@ -241,11 +220,6 @@ namespace cm{
         }
 
         ~token_error() = default;
-
-        std::ostream& show(std::ostream& out) override {
-            out << line << ":ERROR:"<< this->get_string();
-            return out;
-        }
 
         std::string  get_show_info() const override{
             return std::string(std::to_string(line) + ":ERROR:" + this->get_string());

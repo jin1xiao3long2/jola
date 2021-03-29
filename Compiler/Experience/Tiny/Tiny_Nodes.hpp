@@ -5,13 +5,10 @@
 
 #include <Tiny_Signal.hpp>
 
+
 namespace tn{
 
-    void build_tree_version(int l, const std::string &info){
-        for(int i = 0; i < l; i++)
-            std::cout << "    ";
-        std::cout << info << std::endl;
-    }
+
 
     /*
      * 所有结点的基类,主要设计到
