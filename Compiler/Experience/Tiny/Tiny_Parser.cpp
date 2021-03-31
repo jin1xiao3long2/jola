@@ -6,6 +6,14 @@
 
 namespace tn {
 
+//    Message Function
+
+
+    void Parser::addMessage(const std::string &info) {
+        messages.push_back("\n>>> Syntax error at line " + std::to_string(lineNum) + ": " + info);
+    }
+
+
 
 //    Support Function
 
@@ -13,7 +21,15 @@ namespace tn {
 
     void Parser::Ensure() {
         if (IsEnd()) //error happened
-            throw std::runtime_error("Unexpected error");
+        {
+            lineNum++;
+            addMessage("unexpected token -> EOF");
+        }
+    }
+
+    int Parser::get_line() {
+        Ensure();
+        return tokens.front()->get_line();
     }
 
     token_type Parser::peek() {
@@ -31,23 +47,30 @@ namespace tn {
 
     token_base *Parser::consume_token() {
         token_base *value = tokens.front();
+        lineNum = value->get_line();
         tokens.pop_front();
         return value;
     }
 
-    void Parser::match_type(token_type type) {
-        if (peek() != type)
-            throw std::runtime_error("unexpected token (match type)");
+    bool Parser::match_type(token_type type) {
+        if (peek() != type){
+            token_base* token = consume_token();
+            addMessage("unexpected token -> " + token->get_show_info());
+            return false;
+        }
+        return true;
     }
 
     token_base *Parser::consume_type(token_type type) {
-        match_type(type);
-        return consume_token();
+        if(match_type(type))
+            return consume_token();
     }
 
-    void Parser::match_keyword(keyword_type keyword) {
+    bool Parser::match_keyword(keyword_type keyword) {
         if (peek_keyword() != keyword)
-            throw std::runtime_error("unexpected keyword");
+        {
+
+        }
     }
 
     token_base *Parser::consume_keyword(keyword_type keyword) {
@@ -56,7 +79,7 @@ namespace tn {
         return consume_token();
     }
 
-    void Parser::match_signal(signal_type signal) {
+    bool Parser::match_signal(signal_type signal) {
         if (peek_signal() != signal)
             throw std::runtime_error("unexpected signal");
     }

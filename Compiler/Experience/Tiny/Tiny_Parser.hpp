@@ -63,6 +63,11 @@ namespace tn{
     private:
         std::deque<token_base *> tokens;
         node_base *start;
+        int lineNum = 0;
+        std::deque<std::string> messages;
+
+//        Message Function
+        void addMessage(const std::string &info);
 
 //        Support Function
         bool IsEnd(); //check if tokens.empty
@@ -71,21 +76,23 @@ namespace tn{
 
         token_type peek(); //check tokens.front.type
 
+        int get_line(); //get tokens.front.line
+
         signal_type peek_signal(); //check signal.value
 
         keyword_type peek_keyword(); //check keyword.value
 
         token_base* consume_token(); //pop and get tokens.front
 
-        void match_type(token_type type);
+        bool match_type(token_type type);
 
         token_base* consume_type(token_type type);
 
-        void match_keyword(keyword_type keyword);
+        bool match_keyword(keyword_type keyword);
 
         token_base* consume_keyword(keyword_type keyword);
 
-        void match_signal(signal_type signal);
+        bool match_signal(signal_type signal);
 
         token_base* consume_signal(signal_type signal);
 //        Parse Function
@@ -128,8 +135,13 @@ namespace tn{
         }
 
         void show_info(){
+            for(auto iter = messages.begin(); iter != messages.end(); iter++){
+                std::cout << iter->data() << std::endl;
+            }
             start->Eval(1);
         }
+
+
     };
 
 }

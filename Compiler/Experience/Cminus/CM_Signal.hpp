@@ -77,7 +77,9 @@ namespace cm{
 
         virtual std::string get_string() const = 0;
 
-        virtual std::string get_show_info() const = 0;
+        virtual std::string get_show_info() const {
+            return std::string(this->get_string());
+        }
 
         int get_line() const { return line; }
 
@@ -108,10 +110,6 @@ namespace cm{
             return signal;
         }
 
-
-        std::string  get_show_info() const override{
-            return std::string(std::to_string(line) + ":" + this->get_string());
-        }
     };
 
     class token_keyword final : public token_base{
@@ -139,7 +137,7 @@ namespace cm{
         }
 
         std::string  get_show_info() const override{
-            return std::string(std::to_string(line) + ":reserved word:" + this->get_string());
+            return std::string("reserved word:" + this->get_string());
         }
     };
 
@@ -168,7 +166,7 @@ namespace cm{
         ~token_number() = default;
 
         std::string  get_show_info() const override{
-            return std::string(std::to_string(line) + ":Num, val= " + this->get_string());
+            return std::string("Num, val= " + this->get_string());
         }
     };
 
@@ -195,7 +193,7 @@ namespace cm{
         }
 
         std::string  get_show_info() const override{
-            return std::string(std::to_string(line) + ":ID,name= " + this->get_string());
+            return std::string("ID,name= " + this->get_string());
         }
     };
 
@@ -221,8 +219,9 @@ namespace cm{
 
         ~token_error() = default;
 
+//        id
         std::string  get_show_info() const override{
-            return std::string(std::to_string(line) + ":ERROR:" + this->get_string());
+            return std::string("ERROR:" + this->get_string() + "2018141461179");
         }
     };
 }

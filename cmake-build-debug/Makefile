@@ -728,19 +728,6 @@ LibParser/fast:
 .PHONY : LibParser/fast
 
 #=============================================================================
-# Target rules for targets named tntestLexer
-
-# Build rule for target.
-tntestLexer: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tntestLexer
-.PHONY : tntestLexer
-
-# fast build rule for target.
-tntestLexer/fast:
-	$(MAKE) $(MAKESILENT) -f Compiler\Experience\Tiny\CMakeFiles\tntestLexer.dir\build.make Compiler/Experience/Tiny/CMakeFiles/tntestLexer.dir/build
-.PHONY : tntestLexer/fast
-
-#=============================================================================
 # Target rules for targets named tinyLexer
 
 # Build rule for target.
@@ -754,19 +741,6 @@ tinyLexer/fast:
 .PHONY : tinyLexer/fast
 
 #=============================================================================
-# Target rules for targets named tntestParser
-
-# Build rule for target.
-tntestParser: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tntestParser
-.PHONY : tntestParser
-
-# fast build rule for target.
-tntestParser/fast:
-	$(MAKE) $(MAKESILENT) -f Compiler\Experience\Tiny\CMakeFiles\tntestParser.dir\build.make Compiler/Experience/Tiny/CMakeFiles/tntestParser.dir/build
-.PHONY : tntestParser/fast
-
-#=============================================================================
 # Target rules for targets named tinyParser
 
 # Build rule for target.
@@ -778,6 +752,32 @@ tinyParser: cmake_check_build_system
 tinyParser/fast:
 	$(MAKE) $(MAKESILENT) -f Compiler\Experience\Tiny\CMakeFiles\tinyParser.dir\build.make Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/build
 .PHONY : tinyParser/fast
+
+#=============================================================================
+# Target rules for targets named tinyscan
+
+# Build rule for target.
+tinyscan: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tinyscan
+.PHONY : tinyscan
+
+# fast build rule for target.
+tinyscan/fast:
+	$(MAKE) $(MAKESILENT) -f Compiler\Experience\Tiny\CMakeFiles\tinyscan.dir\build.make Compiler/Experience/Tiny/CMakeFiles/tinyscan.dir/build
+.PHONY : tinyscan/fast
+
+#=============================================================================
+# Target rules for targets named tiny
+
+# Build rule for target.
+tiny: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tiny
+.PHONY : tiny
+
+# fast build rule for target.
+tiny/fast:
+	$(MAKE) $(MAKESILENT) -f Compiler\Experience\Tiny\CMakeFiles\tiny.dir\build.make Compiler/Experience/Tiny/CMakeFiles/tiny.dir/build
+.PHONY : tiny/fast
 
 #=============================================================================
 # Target rules for targets named LexerLib
@@ -1670,10 +1670,10 @@ help:
 	@echo ... switch
 	@echo ... test
 	@echo ... test1
+	@echo ... tiny
 	@echo ... tinyLexer
 	@echo ... tinyParser
-	@echo ... tntestLexer
-	@echo ... tntestParser
+	@echo ... tinyscan
 	@echo ... while
 	@echo ... 5_31algo_C.obj
 	@echo ... 5_31algo_C.i

@@ -73,8 +73,8 @@ namespace tn{
 
         virtual std::string get_string() const = 0;
 
-        virtual std::string get_show_info() {
-            return std::string(line + ":" + this->get_string());
+        virtual std::string get_show_info() const{
+            return std::string(this->get_string());
         }
 
         int get_line() const { return line; }
@@ -132,8 +132,8 @@ namespace tn{
             return keyword;
         }
 
-        std::string get_show_info() override{
-            return std::string(line + ":reserved word:" + this->get_string());
+        std::string get_show_info() const override{
+            return std::string("reserved word: " + this->get_string());
         }
     };
 
@@ -161,8 +161,8 @@ namespace tn{
 
         ~token_number() = default;
 
-        std::string get_show_info() override{
-            return std::string(line + ":NUM, val=" + this->get_string());
+        std::string get_show_info() const override{
+            return std::string("NUM, val= " + this->get_string());
         }
     };
 
@@ -188,8 +188,8 @@ namespace tn{
             return name;
         }
 
-        std::string get_show_info() override{
-            return std::string(line + ":ID,name= " + this->get_string());
+        std::string get_show_info() const override{
+            return std::string("ID,name= " + this->get_string());
         }
     };
 
@@ -215,8 +215,9 @@ namespace tn{
 
         ~token_error() = default;
 
-        std::string get_show_info() override{
-            return std::string(line + ":ERROR:" + this->get_string());
+//        id
+        std::string get_show_info() const override{
+            return std::string("ERROR:" + this->get_string() + " 2018141461179");
         }
     };
 }

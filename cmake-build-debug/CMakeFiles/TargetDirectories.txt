@@ -52,10 +52,10 @@ C:/CPP/2020_5/cmake-build-debug/Compiler/CMakeFiles/edit_cache.dir
 C:/CPP/2020_5/cmake-build-debug/Compiler/CMakeFiles/rebuild_cache.dir
 C:/CPP/2020_5/cmake-build-debug/Compiler/Experience/CMakeFiles/edit_cache.dir
 C:/CPP/2020_5/cmake-build-debug/Compiler/Experience/CMakeFiles/rebuild_cache.dir
-C:/CPP/2020_5/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tntestLexer.dir
 C:/CPP/2020_5/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyLexer.dir
-C:/CPP/2020_5/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tntestParser.dir
 C:/CPP/2020_5/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir
+C:/CPP/2020_5/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyscan.dir
+C:/CPP/2020_5/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tiny.dir
 C:/CPP/2020_5/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/edit_cache.dir
 C:/CPP/2020_5/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/rebuild_cache.dir
 C:/CPP/2020_5/cmake-build-debug/Compiler/Experience/Cminus/CMakeFiles/edit_cache.dir
