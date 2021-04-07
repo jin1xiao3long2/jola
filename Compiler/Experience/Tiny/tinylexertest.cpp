@@ -40,7 +40,7 @@ int get_info(std::string &sp, const std::string &filename, std::vector<tn::token
         newline = true;
         sp += s;
     }
-    std::cout << l << std::endl;
+//    std::cout << l << std::endl;
     if (lineinfo.back()->get_string().empty())
         lineinfo.pop_back();
     lineinfo.push_back(new lineInfo(l, 0, "EOF"));
@@ -136,4 +136,6 @@ int main(int argc, char **argv) {
     get_write_filename(filename, writeFilename);
 //write into files
     write_info(show_tokens, writeFilename);
+
+    return 0;
 }

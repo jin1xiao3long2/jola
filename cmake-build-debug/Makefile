@@ -793,17 +793,17 @@ LexerLib/fast:
 .PHONY : LexerLib/fast
 
 #=============================================================================
-# Target rules for targets named Lexertest
+# Target rules for targets named cscan
 
 # Build rule for target.
-Lexertest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Lexertest
-.PHONY : Lexertest
+cscan: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 cscan
+.PHONY : cscan
 
 # fast build rule for target.
-Lexertest/fast:
-	$(MAKE) $(MAKESILENT) -f Compiler\Experience\Cminus\CMakeFiles\Lexertest.dir\build.make Compiler/Experience/Cminus/CMakeFiles/Lexertest.dir/build
-.PHONY : Lexertest/fast
+cscan/fast:
+	$(MAKE) $(MAKESILENT) -f Compiler\Experience\Cminus\CMakeFiles\cscan.dir\build.make Compiler/Experience/Cminus/CMakeFiles/cscan.dir/build
+.PHONY : cscan/fast
 
 5_31algo_C.obj: 5_31algo_C.cpp.obj
 
@@ -1639,7 +1639,6 @@ help:
 	@echo ... Lexer
 	@echo ... LexerLib
 	@echo ... LexerTest
-	@echo ... Lexertest
 	@echo ... LibLexer
 	@echo ... LibParser
 	@echo ... OS
@@ -1649,6 +1648,7 @@ help:
 	@echo ... SimpleParser
 	@echo ... code
 	@echo ... compilerstest
+	@echo ... cscan
 	@echo ... delnbsp
 	@echo ... exception
 	@echo ... explicit

@@ -145,19 +145,19 @@ LexerLib/fast:
 .PHONY : LexerLib/fast
 
 # Convenience name for target.
-Compiler/Experience/Cminus/CMakeFiles/Lexertest.dir/rule:
-	cd /d C:\CPP\2020_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Compiler/Experience/Cminus/CMakeFiles/Lexertest.dir/rule
-.PHONY : Compiler/Experience/Cminus/CMakeFiles/Lexertest.dir/rule
+Compiler/Experience/Cminus/CMakeFiles/cscan.dir/rule:
+	cd /d C:\CPP\2020_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Compiler/Experience/Cminus/CMakeFiles/cscan.dir/rule
+.PHONY : Compiler/Experience/Cminus/CMakeFiles/cscan.dir/rule
 
 # Convenience name for target.
-Lexertest: Compiler/Experience/Cminus/CMakeFiles/Lexertest.dir/rule
+cscan: Compiler/Experience/Cminus/CMakeFiles/cscan.dir/rule
 
-.PHONY : Lexertest
+.PHONY : cscan
 
 # fast build rule for target.
-Lexertest/fast:
-	cd /d C:\CPP\2020_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Compiler\Experience\Cminus\CMakeFiles\Lexertest.dir\build.make Compiler/Experience/Cminus/CMakeFiles/Lexertest.dir/build
-.PHONY : Lexertest/fast
+cscan/fast:
+	cd /d C:\CPP\2020_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Compiler\Experience\Cminus\CMakeFiles\cscan.dir\build.make Compiler/Experience/Cminus/CMakeFiles/cscan.dir/build
+.PHONY : cscan/fast
 
 CM_Lexer.obj: CM_Lexer.cpp.obj
 
@@ -219,7 +219,7 @@ CMlexertest.obj: CMlexertest.cpp.obj
 
 # target to build an object file
 CMlexertest.cpp.obj:
-	cd /d C:\CPP\2020_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Compiler\Experience\Cminus\CMakeFiles\Lexertest.dir\build.make Compiler/Experience/Cminus/CMakeFiles/Lexertest.dir/CMlexertest.cpp.obj
+	cd /d C:\CPP\2020_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Compiler\Experience\Cminus\CMakeFiles\cscan.dir\build.make Compiler/Experience/Cminus/CMakeFiles/cscan.dir/CMlexertest.cpp.obj
 .PHONY : CMlexertest.cpp.obj
 
 CMlexertest.i: CMlexertest.cpp.i
@@ -228,7 +228,7 @@ CMlexertest.i: CMlexertest.cpp.i
 
 # target to preprocess a source file
 CMlexertest.cpp.i:
-	cd /d C:\CPP\2020_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Compiler\Experience\Cminus\CMakeFiles\Lexertest.dir\build.make Compiler/Experience/Cminus/CMakeFiles/Lexertest.dir/CMlexertest.cpp.i
+	cd /d C:\CPP\2020_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Compiler\Experience\Cminus\CMakeFiles\cscan.dir\build.make Compiler/Experience/Cminus/CMakeFiles/cscan.dir/CMlexertest.cpp.i
 .PHONY : CMlexertest.cpp.i
 
 CMlexertest.s: CMlexertest.cpp.s
@@ -237,7 +237,7 @@ CMlexertest.s: CMlexertest.cpp.s
 
 # target to generate assembly for a file
 CMlexertest.cpp.s:
-	cd /d C:\CPP\2020_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Compiler\Experience\Cminus\CMakeFiles\Lexertest.dir\build.make Compiler/Experience/Cminus/CMakeFiles/Lexertest.dir/CMlexertest.cpp.s
+	cd /d C:\CPP\2020_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Compiler\Experience\Cminus\CMakeFiles\cscan.dir\build.make Compiler/Experience/Cminus/CMakeFiles/cscan.dir/CMlexertest.cpp.s
 .PHONY : CMlexertest.cpp.s
 
 # Help Target
@@ -249,7 +249,7 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... LexerLib
-	@echo ... Lexertest
+	@echo ... cscan
 	@echo ... CM_Lexer.obj
 	@echo ... CM_Lexer.i
 	@echo ... CM_Lexer.s

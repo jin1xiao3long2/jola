@@ -266,6 +266,12 @@ Tiny_BINARY_DIR:STATIC=C:/CPP/2020_5/cmake-build-debug/Compiler/Experience/Tiny
 Tiny_SOURCE_DIR:STATIC=C:/CPP/2020_5/Compiler/Experience/Tiny
 
 //Value Computed by CMake
+Tiny_s_BINARY_DIR:STATIC=C:/CPP/2020_5/cmake-build-debug/Compiler/Experience/tinys
+
+//Value Computed by CMake
+Tiny_s_SOURCE_DIR:STATIC=C:/CPP/2020_5/Compiler/Experience/tinys
+
+//Value Computed by CMake
 compiler_learn_BINARY_DIR:STATIC=C:/CPP/2020_5/cmake-build-debug/Compiler
 
 //Value Computed by CMake

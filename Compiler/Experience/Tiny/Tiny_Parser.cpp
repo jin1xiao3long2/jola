@@ -48,46 +48,61 @@ namespace tn {
     token_base *Parser::consume_token() {
         token_base *value = tokens.front();
         lineNum = value->get_line();
+        std::cout << "consume token: line " << lineNum << ", Column: " << value->get_column() << ", info: "
+                  << value->get_show_info() << std::endl;
         tokens.pop_front();
         return value;
     }
 
     bool Parser::match_type(token_type type) {
-        if (peek() != type){
-            token_base* token = consume_token();
-            addMessage("unexpected token -> " + token->get_show_info());
+        if (peek() != type) {
             return false;
         }
         return true;
     }
 
     token_base *Parser::consume_type(token_type type) {
-        if(match_type(type))
-            return consume_token();
+        token_base *token = consume_token();
+        if (match_type(type))
+            return token;
+        addMessage("unexpected token -> " + token->get_show_info());
+        return nullptr;
+//        error
     }
 
     bool Parser::match_keyword(keyword_type keyword) {
+        if (!match_type(token_type::keyword_type))
+            return false;
         if (peek_keyword() != keyword)
-        {
-
-        }
+            return false;
+        return true;
     }
 
     token_base *Parser::consume_keyword(keyword_type keyword) {
-        match_type(token_type::keyword_type);
-        match_keyword(keyword);
-        return consume_token();
+        token_base *token = consume_token();
+        if (!match_keyword(keyword)) {
+            addMessage(
+                    "expected " + keyword_convert_string(keyword) + " unexpected token -> " + token->get_show_info());
+            return nullptr;
+        }
+        return token;
     }
 
     bool Parser::match_signal(signal_type signal) {
+        if (!match_type(token_type::signal_type))
+            return false;
         if (peek_signal() != signal)
-            throw std::runtime_error("unexpected signal");
+            return false;
+        return true;
     }
 
     token_base *Parser::consume_signal(signal_type signal) {
-        match_type(token_type::signal_type);
-        match_signal(signal);
-        return consume_token();
+        token_base *token = consume_token();
+        if (!match_signal(signal)) {
+            addMessage("expected " + signal_convert_string(signal) + " unexpected token -> " + token->get_show_info());
+            return nullptr;
+        }
+        return token;
     }
 
 //    Parse Function
@@ -103,31 +118,46 @@ namespace tn {
         bool break_while = false;
         while (!IsEnd()) {
             switch (peek()) {
-                case token_type::signal_type: {
-                    switch (peek_signal()) {
-                        case signal_type::SEMICOLON: {
-                            stmtSequence->Semicolon = consume_token();
-                            stmtSequence->Stmt_2 = Parse_Statement();
-                            node_Stmt_sequence *next = new node_Stmt_sequence;
-                            next->Stmt_1 = stmtSequence;
-                            stmtSequence = next;
+                case token_type::keyword_type: {
+                    switch (peek_keyword()) {
+                        case keyword_type::THEN:
+                        case keyword_type::ELSE:
+                        case keyword_type::UNTIL: {
+                            break_while = true;
                             break;
                         }
-                        default: {
-                            break_while = true;
+                        default: { //add_error
+                            match_signal(signal_type::SEMICOLON);
                             break;
                         }
                     }
                     break;
                 }
                 default: {
-                    break_while = true;
+                    stmtSequence->Semicolon = consume_signal(signal_type::SEMICOLON);
+                    std::cout << stmtSequence->Semicolon->get_show_info() << std::endl;
+                    if (stmtSequence->Semicolon == nullptr) {
+                        std::cout << "nullptrsemicolon" << std::endl;
+                        break_while = true;
+                        break;
+                    }
+                    stmtSequence->Stmt_2 = Parse_Statement();
+                    if (stmtSequence->Stmt_2) {
+                        if (stmtSequence->Stmt_1 = nullptr)
+                            return nullptr;
+                        node_Stmt_sequence *next = new node_Stmt_sequence;
+                        next->Stmt_1 = stmtSequence;
+                        stmtSequence = next;
+                    } else {
+                        break_while = true;
+                    }
                     break;
                 }
             }
             if (break_while)
                 break;
         }
+
         return stmtSequence;
     }
 
@@ -153,7 +183,8 @@ namespace tn {
                         break;
                     }
                     default: {
-                        throw std::runtime_error("unexpected keyword");
+                        addMessage("unexpected token -> " + tokens.front()->get_show_info());
+                        return nullptr;
                     }
                 }
                 break;
@@ -163,39 +194,40 @@ namespace tn {
                 break;
             }
             default:
-                throw std::runtime_error("expected \"if\", \"repeat\",\"identifier\",\"read\",\"write\"");
+                return nullptr;
         }
         return statement;
     }
 
     node_If_stmt *Parser::Parse_If_stmt() {
         node_If_stmt *ifStmt = new node_If_stmt;
+        //consume if
         ifStmt->If = consume_token();
+        //consume exp
         ifStmt->Exp = Parse_Exp();
 //        consume THEN
-        consume_keyword(keyword_type::THEN);
+        ifStmt->Then = consume_keyword(keyword_type::THEN);
         ifStmt->Stmt_sequence_1 = Parse_Stmt_sequence();
+
         switch (peek()) {
             case token_type::keyword_type: {
                 switch (peek_keyword()) {
-                    case keyword_type::THEN: {
-                        ifStmt->Then = consume_token();
+                    case keyword_type::ELSE: {
+                        ifStmt->Then = consume_keyword(keyword_type::THEN);
                         ifStmt->Stmt_sequence_2 = Parse_Stmt_sequence();
-                        ifStmt->End = consume_keyword(keyword_type::END);
                         break;
                     }
-                    case keyword_type::END: {
-                        ifStmt->Then = consume_token();
+                    default: {
                         break;
                     }
-                    default:
-                        throw std::runtime_error("unexpected token (ifstmt)");
                 }
                 break;
             }
             default:
-                throw std::runtime_error("unexpected token (ifstmt)");
+                break;
         }
+
+        ifStmt->End = consume_keyword(keyword_type::END);
         return ifStmt;
     }
 

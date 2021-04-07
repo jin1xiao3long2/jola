@@ -203,7 +203,7 @@ Compiler/Experience/clean: Compiler/Experience/Cminus/clean
 
 # Recursive "all" directory target.
 Compiler/Experience/Cminus/all: Compiler/Experience/Cminus/CMakeFiles/LexerLib.dir/all
-Compiler/Experience/Cminus/all: Compiler/Experience/Cminus/CMakeFiles/Lexertest.dir/all
+Compiler/Experience/Cminus/all: Compiler/Experience/Cminus/CMakeFiles/cscan.dir/all
 
 .PHONY : Compiler/Experience/Cminus/all
 
@@ -214,7 +214,7 @@ Compiler/Experience/Cminus/preinstall:
 
 # Recursive "clean" directory target.
 Compiler/Experience/Cminus/clean: Compiler/Experience/Cminus/CMakeFiles/LexerLib.dir/clean
-Compiler/Experience/Cminus/clean: Compiler/Experience/Cminus/CMakeFiles/Lexertest.dir/clean
+Compiler/Experience/Cminus/clean: Compiler/Experience/Cminus/CMakeFiles/cscan.dir/clean
 
 .PHONY : Compiler/Experience/Cminus/clean
 
@@ -314,7 +314,7 @@ CMakeFiles/test1.dir/clean:
 CMakeFiles/code.dir/all: CMakeFiles/lib.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=48,49 "Built target code"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=46,47 "Built target code"
 .PHONY : CMakeFiles/code.dir/all
 
 # Build rule for subdir invocation for target.
@@ -368,7 +368,7 @@ CMakeFiles/test.dir/clean:
 CMakeFiles/OS.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OS.dir\build.make CMakeFiles/OS.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OS.dir\build.make CMakeFiles/OS.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=36,37 "Built target OS"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=34,35 "Built target OS"
 .PHONY : CMakeFiles/OS.dir/all
 
 # Build rule for subdir invocation for target.
@@ -530,12 +530,12 @@ CMakeFiles/Huffman.dir/clean:
 CMakeFiles/OS1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OS1.dir\build.make CMakeFiles/OS1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OS1.dir\build.make CMakeFiles/OS1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=38,39,40,41 "Built target OS1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=36,37,38,39,40 "Built target OS1"
 .PHONY : CMakeFiles/OS1.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/OS1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\2020_5\cmake-build-debug\CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\2020_5\cmake-build-debug\CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/OS1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\2020_5\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/OS1.dir/rule
@@ -1364,16 +1364,16 @@ Compiler/CMakeFiles/Lexer.dir/clean:
 # Target rules for target Compiler/CMakeFiles/ParserTest.dir
 
 # All Build rule for target.
-Compiler/CMakeFiles/ParserTest.dir/all: Compiler/CMakeFiles/LibLexer.dir/all
 Compiler/CMakeFiles/ParserTest.dir/all: Compiler/CMakeFiles/LibParser.dir/all
+Compiler/CMakeFiles/ParserTest.dir/all: Compiler/CMakeFiles/LibLexer.dir/all
 	$(MAKE) $(MAKESILENT) -f Compiler\CMakeFiles\ParserTest.dir\build.make Compiler/CMakeFiles/ParserTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f Compiler\CMakeFiles\ParserTest.dir\build.make Compiler/CMakeFiles/ParserTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=44,45 "Built target ParserTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=42,43 "Built target ParserTest"
 .PHONY : Compiler/CMakeFiles/ParserTest.dir/all
 
 # Build rule for subdir invocation for target.
 Compiler/CMakeFiles/ParserTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\2020_5\cmake-build-debug\CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\2020_5\cmake-build-debug\CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Compiler/CMakeFiles/ParserTest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\2020_5\cmake-build-debug\CMakeFiles 0
 .PHONY : Compiler/CMakeFiles/ParserTest.dir/rule
@@ -1395,12 +1395,12 @@ Compiler/CMakeFiles/ParserTest.dir/clean:
 Compiler/CMakeFiles/Parser.dir/all:
 	$(MAKE) $(MAKESILENT) -f Compiler\CMakeFiles\Parser.dir\build.make Compiler/CMakeFiles/Parser.dir/depend
 	$(MAKE) $(MAKESILENT) -f Compiler\CMakeFiles\Parser.dir\build.make Compiler/CMakeFiles/Parser.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=42,43 "Built target Parser"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=41 "Built target Parser"
 .PHONY : Compiler/CMakeFiles/Parser.dir/all
 
 # Build rule for subdir invocation for target.
 Compiler/CMakeFiles/Parser.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\2020_5\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\2020_5\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Compiler/CMakeFiles/Parser.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\2020_5\cmake-build-debug\CMakeFiles 0
 .PHONY : Compiler/CMakeFiles/Parser.dir/rule
@@ -1422,12 +1422,12 @@ Compiler/CMakeFiles/Parser.dir/clean:
 Compiler/CMakeFiles/compilerstest.dir/all:
 	$(MAKE) $(MAKESILENT) -f Compiler\CMakeFiles\compilerstest.dir\build.make Compiler/CMakeFiles/compilerstest.dir/depend
 	$(MAKE) $(MAKESILENT) -f Compiler\CMakeFiles\compilerstest.dir\build.make Compiler/CMakeFiles/compilerstest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=50 "Built target compilerstest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=48,49 "Built target compilerstest"
 .PHONY : Compiler/CMakeFiles/compilerstest.dir/all
 
 # Build rule for subdir invocation for target.
 Compiler/CMakeFiles/compilerstest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\2020_5\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\2020_5\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Compiler/CMakeFiles/compilerstest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\2020_5\cmake-build-debug\CMakeFiles 0
 .PHONY : Compiler/CMakeFiles/compilerstest.dir/rule
@@ -1449,12 +1449,12 @@ Compiler/CMakeFiles/compilerstest.dir/clean:
 Compiler/CMakeFiles/LibLexer.dir/all:
 	$(MAKE) $(MAKESILENT) -f Compiler\CMakeFiles\LibLexer.dir\build.make Compiler/CMakeFiles/LibLexer.dir/depend
 	$(MAKE) $(MAKESILENT) -f Compiler\CMakeFiles\LibLexer.dir\build.make Compiler/CMakeFiles/LibLexer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=32,33 "Built target LibLexer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=31 "Built target LibLexer"
 .PHONY : Compiler/CMakeFiles/LibLexer.dir/all
 
 # Build rule for subdir invocation for target.
 Compiler/CMakeFiles/LibLexer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\2020_5\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\2020_5\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Compiler/CMakeFiles/LibLexer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\2020_5\cmake-build-debug\CMakeFiles 0
 .PHONY : Compiler/CMakeFiles/LibLexer.dir/rule
@@ -1476,7 +1476,7 @@ Compiler/CMakeFiles/LibLexer.dir/clean:
 Compiler/CMakeFiles/SimpleParser.dir/all:
 	$(MAKE) $(MAKESILENT) -f Compiler\CMakeFiles\SimpleParser.dir\build.make Compiler/CMakeFiles/SimpleParser.dir/depend
 	$(MAKE) $(MAKESILENT) -f Compiler\CMakeFiles\SimpleParser.dir\build.make Compiler/CMakeFiles/SimpleParser.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=46,47 "Built target SimpleParser"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=44,45 "Built target SimpleParser"
 .PHONY : Compiler/CMakeFiles/SimpleParser.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1503,7 +1503,7 @@ Compiler/CMakeFiles/SimpleParser.dir/clean:
 Compiler/CMakeFiles/LibParser.dir/all:
 	$(MAKE) $(MAKESILENT) -f Compiler\CMakeFiles\LibParser.dir\build.make Compiler/CMakeFiles/LibParser.dir/depend
 	$(MAKE) $(MAKESILENT) -f Compiler\CMakeFiles\LibParser.dir\build.make Compiler/CMakeFiles/LibParser.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=34,35 "Built target LibParser"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=32,33 "Built target LibParser"
 .PHONY : Compiler/CMakeFiles/LibParser.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1660,31 +1660,31 @@ Compiler/Experience/Cminus/CMakeFiles/LexerLib.dir/clean:
 .PHONY : Compiler/Experience/Cminus/CMakeFiles/LexerLib.dir/clean
 
 #=============================================================================
-# Target rules for target Compiler/Experience/Cminus/CMakeFiles/Lexertest.dir
+# Target rules for target Compiler/Experience/Cminus/CMakeFiles/cscan.dir
 
 # All Build rule for target.
-Compiler/Experience/Cminus/CMakeFiles/Lexertest.dir/all: Compiler/Experience/Cminus/CMakeFiles/LexerLib.dir/all
-	$(MAKE) $(MAKESILENT) -f Compiler\Experience\Cminus\CMakeFiles\Lexertest.dir\build.make Compiler/Experience/Cminus/CMakeFiles/Lexertest.dir/depend
-	$(MAKE) $(MAKESILENT) -f Compiler\Experience\Cminus\CMakeFiles\Lexertest.dir\build.make Compiler/Experience/Cminus/CMakeFiles/Lexertest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=31 "Built target Lexertest"
-.PHONY : Compiler/Experience/Cminus/CMakeFiles/Lexertest.dir/all
+Compiler/Experience/Cminus/CMakeFiles/cscan.dir/all: Compiler/Experience/Cminus/CMakeFiles/LexerLib.dir/all
+	$(MAKE) $(MAKESILENT) -f Compiler\Experience\Cminus\CMakeFiles\cscan.dir\build.make Compiler/Experience/Cminus/CMakeFiles/cscan.dir/depend
+	$(MAKE) $(MAKESILENT) -f Compiler\Experience\Cminus\CMakeFiles\cscan.dir\build.make Compiler/Experience/Cminus/CMakeFiles/cscan.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\2020_5\cmake-build-debug\CMakeFiles --progress-num=50 "Built target cscan"
+.PHONY : Compiler/Experience/Cminus/CMakeFiles/cscan.dir/all
 
 # Build rule for subdir invocation for target.
-Compiler/Experience/Cminus/CMakeFiles/Lexertest.dir/rule: cmake_check_build_system
+Compiler/Experience/Cminus/CMakeFiles/cscan.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\2020_5\cmake-build-debug\CMakeFiles 4
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Compiler/Experience/Cminus/CMakeFiles/Lexertest.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Compiler/Experience/Cminus/CMakeFiles/cscan.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\2020_5\cmake-build-debug\CMakeFiles 0
-.PHONY : Compiler/Experience/Cminus/CMakeFiles/Lexertest.dir/rule
+.PHONY : Compiler/Experience/Cminus/CMakeFiles/cscan.dir/rule
 
 # Convenience name for target.
-Lexertest: Compiler/Experience/Cminus/CMakeFiles/Lexertest.dir/rule
+cscan: Compiler/Experience/Cminus/CMakeFiles/cscan.dir/rule
 
-.PHONY : Lexertest
+.PHONY : cscan
 
 # clean rule for target.
-Compiler/Experience/Cminus/CMakeFiles/Lexertest.dir/clean:
-	$(MAKE) $(MAKESILENT) -f Compiler\Experience\Cminus\CMakeFiles\Lexertest.dir\build.make Compiler/Experience/Cminus/CMakeFiles/Lexertest.dir/clean
-.PHONY : Compiler/Experience/Cminus/CMakeFiles/Lexertest.dir/clean
+Compiler/Experience/Cminus/CMakeFiles/cscan.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Compiler\Experience\Cminus\CMakeFiles\cscan.dir\build.make Compiler/Experience/Cminus/CMakeFiles/cscan.dir/clean
+.PHONY : Compiler/Experience/Cminus/CMakeFiles/cscan.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

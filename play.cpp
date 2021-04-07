@@ -1,14 +1,14 @@
-#include "play.hpp"
-#include <string>
-#include <iostream>
+#include "test.hpp"
 
-int main() {
+#include <muduo/base/Logging.h>
+#include <muduo/net/EventLoop.h>
 
-    std::string s;
-    s = "3qwe.asd";
-    int n = s.rfind('.');
-    std::cout << n << std::endl;
-    std::string d = s.substr(n + 1, s.size() - 1);
-    std::cout << d << std::endl;
-
+int main(){
+    LOG_INFO << "pid = " << getpid();
+    muduo::net::EventLoop loop;
+    muduo::net::InetAddress listenAddr(2007);
+    EchoServer (&loop, listenAddr);
+    server.start();
+    loop.loop();
+    return 0;
 }

@@ -114,5 +114,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "Compiler/Experience/Tiny/CMakeFiles/tinyscan.dir/DependInfo.cmake"
   "Compiler/Experience/Tiny/CMakeFiles/tiny.dir/DependInfo.cmake"
   "Compiler/Experience/Cminus/CMakeFiles/LexerLib.dir/DependInfo.cmake"
-  "Compiler/Experience/Cminus/CMakeFiles/Lexertest.dir/DependInfo.cmake"
+  "Compiler/Experience/Cminus/CMakeFiles/cscan.dir/DependInfo.cmake"
   )
