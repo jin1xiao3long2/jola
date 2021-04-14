@@ -1,3 +1,0 @@
-C:\Users\XM\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.6693.114\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\switch.dir/objects.a
-C:\BC\C\mingw64\bin\ar.exe cr CMakeFiles\switch.dir/objects.a @CMakeFiles\switch.dir\objects1.rsp
-C:\BC\C\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\switch.dir/objects.a -Wl,--no-whole-archive -o switch.exe -Wl,--out-implib,libswitch.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\switch.dir\linklibs.rsp

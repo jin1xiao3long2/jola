@@ -1,2 +1,0 @@
-C:\BC\C\mingw64\bin\ar.exe qc libLexerLib.a CMakeFiles/LexerLib.dir/CM_Lexer.cpp.obj CMakeFiles/LexerLib.dir/CM_Signal.cpp.obj
-C:\BC\C\mingw64\bin\ranlib.exe libLexerLib.a

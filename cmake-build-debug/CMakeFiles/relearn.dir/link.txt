@@ -1,3 +1,0 @@
-C:\Users\XM\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.6693.114\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\relearn.dir/objects.a
-C:\BC\C\mingw64\bin\ar.exe cr CMakeFiles\relearn.dir/objects.a @CMakeFiles\relearn.dir\objects1.rsp
-C:\BC\C\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\relearn.dir/objects.a -Wl,--no-whole-archive -o relearn.exe -Wl,--out-implib,librelearn.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\relearn.dir\linklibs.rsp

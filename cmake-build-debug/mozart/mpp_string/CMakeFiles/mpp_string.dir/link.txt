@@ -1,2 +1,0 @@
-C:\BC\C\mingw64\bin\ar.exe qc libmpp_string.a  CMakeFiles/mpp_string.dir/src/dummy.cpp.obj
-C:\BC\C\mingw64\bin\ranlib.exe libmpp_string.a

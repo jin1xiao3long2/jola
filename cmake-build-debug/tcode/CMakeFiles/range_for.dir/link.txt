@@ -1,3 +1,0 @@
-C:\Users\XM\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.6693.114\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\range_for.dir/objects.a
-C:\BC\C\mingw64\bin\ar.exe cr CMakeFiles\range_for.dir/objects.a @CMakeFiles\range_for.dir\objects1.rsp
-C:\BC\C\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\range_for.dir/objects.a -Wl,--no-whole-archive -o range_for.exe -Wl,--out-implib,librange_for.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\range_for.dir\linklibs.rsp

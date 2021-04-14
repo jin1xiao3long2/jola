@@ -1,3 +1,0 @@
-C:\Users\XM\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\202.6397.106\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\mpp_core-test-typelist.dir/objects.a
-C:\BC\C\mingw64\bin\ar.exe cr CMakeFiles\mpp_core-test-typelist.dir/objects.a @CMakeFiles\mpp_core-test-typelist.dir\objects1.rsp
-C:\BC\C\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\mpp_core-test-typelist.dir/objects.a -Wl,--no-whole-archive  -o mpp_core-test-typelist.exe -Wl,--out-implib,libmpp_core-test-typelist.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\mpp_core-test-typelist.dir\linklibs.rsp

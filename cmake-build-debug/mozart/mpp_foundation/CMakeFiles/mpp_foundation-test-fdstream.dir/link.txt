@@ -1,3 +1,0 @@
-C:\Users\XM\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\202.6397.106\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\mpp_foundation-test-fdstream.dir/objects.a
-C:\BC\C\mingw64\bin\ar.exe cr CMakeFiles\mpp_foundation-test-fdstream.dir/objects.a @CMakeFiles\mpp_foundation-test-fdstream.dir\objects1.rsp
-C:\BC\C\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\mpp_foundation-test-fdstream.dir/objects.a -Wl,--no-whole-archive  -o mpp_foundation-test-fdstream.exe -Wl,--out-implib,libmpp_foundation-test-fdstream.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\mpp_foundation-test-fdstream.dir\linklibs.rsp

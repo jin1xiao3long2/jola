@@ -1,3 +1,0 @@
-C:\Users\XM\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.6693.114\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\play.dir/objects.a
-C:\BC\C\mingw64\bin\ar.exe cr CMakeFiles\play.dir/objects.a @CMakeFiles\play.dir\objects1.rsp
-C:\BC\C\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\play.dir/objects.a -Wl,--no-whole-archive -o play.exe -Wl,--out-implib,libplay.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\play.dir\linklibs.rsp
