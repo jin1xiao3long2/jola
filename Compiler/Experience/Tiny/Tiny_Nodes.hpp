@@ -4,6 +4,7 @@
 #pragma once
 
 #include <Tiny_Signal.hpp>
+#include <deque>
 
 
 namespace tn{
@@ -15,7 +16,7 @@ namespace tn{
      */
     struct node_base{
 //Eval 是否return 值得考究
-        virtual node_base* Eval(int) = 0;
+        virtual node_base* Eval(int,std::deque<std::string>&) = 0;
 
         virtual ~node_base() = default;
     };
@@ -23,7 +24,7 @@ namespace tn{
     struct node_Program final : public node_base{
         node_base* Stmt_sequence{};
 
-        node_base * Eval(int) override;
+        node_base * Eval(int,std::deque<std::string>&) override;
 
         ~node_Program(){
             delete Stmt_sequence;
@@ -35,7 +36,7 @@ namespace tn{
         token_base* Semicolon{};
         node_base* Stmt_2{};
 
-        node_base * Eval(int) override;
+        node_base * Eval(int,std::deque<std::string>&) override;
 
         ~node_Stmt_sequence(){
             delete Stmt_1;
@@ -51,7 +52,7 @@ namespace tn{
         node_base* Read_stmt{};
         node_base* Write_stmt{};
 
-        node_base * Eval(int) override;
+        node_base * Eval(int,std::deque<std::string>&) override;
 
         ~node_Statement(){
             delete If_stmt;
@@ -71,7 +72,7 @@ namespace tn{
         node_base* Stmt_sequence_2{};
         token_base* End{};
 
-        node_base * Eval(int) override;
+        node_base * Eval(int,std::deque<std::string>&) override;
 
         ~node_If_stmt(){
             delete If;
@@ -90,7 +91,7 @@ namespace tn{
         token_base* Until{};
         node_base* Exp{};
 
-        node_base * Eval(int) override;
+        node_base * Eval(int,std::deque<std::string>&) override;
 
         ~node_Repeat_stmt(){
             delete Repeat;
@@ -105,7 +106,7 @@ namespace tn{
         token_base* Assign{};
         node_base* Exp{};
 
-        node_base * Eval(int) override;
+        node_base * Eval(int,std::deque<std::string>&) override;
 
         ~node_Assign_stmt(){
             delete Identifier;
@@ -118,7 +119,7 @@ namespace tn{
         token_base* Read{};
         token_base* Identifier{};
 
-        node_base * Eval(int) override;
+        node_base * Eval(int,std::deque<std::string>&) override;
 
         ~node_Read_stmt(){
             delete Read;
@@ -130,7 +131,7 @@ namespace tn{
         token_base* Write{};
         node_base* Exp{};
 
-        node_base * Eval(int) override;
+        node_base * Eval(int,std::deque<std::string>&) override;
 
         ~node_Write_stmt(){
             delete Write;
@@ -143,7 +144,7 @@ namespace tn{
         node_base* Comparison_op{};
         node_base* Simple_exp_2{};
 
-        node_base * Eval(int) override;
+        node_base * Eval(int,std::deque<std::string>&) override;
 
         ~node_Exp(){
             delete Simple_exp_1;
@@ -155,7 +156,7 @@ namespace tn{
     struct node_Comparison_op final : public node_base{
         token_base* Comparison_op{};
 
-        node_base * Eval(int) override;
+        node_base * Eval(int,std::deque<std::string>&) override;
 
         ~node_Comparison_op(){
             delete Comparison_op;
@@ -167,7 +168,7 @@ namespace tn{
         node_base* AddOp{};
         node_base* Term_2{};
 
-        node_base * Eval(int) override;
+        node_base * Eval(int,std::deque<std::string>&) override;
 
         ~node_Simple_exp(){
             delete Term_1;
@@ -179,7 +180,7 @@ namespace tn{
     struct node_AddOp final : public node_base{
         token_base* AddOp{};
 
-        node_base * Eval(int) override;
+        node_base * Eval(int,std::deque<std::string>&) override;
 
         ~node_AddOp(){
             delete AddOp;
@@ -191,7 +192,7 @@ namespace tn{
         node_base* MulOp{};
         node_base* Factor_2{};
 
-        node_base * Eval(int) override;
+        node_base * Eval(int,std::deque<std::string>&) override;
 
         ~node_Term(){
             delete Factor_1;
@@ -203,7 +204,7 @@ namespace tn{
     struct node_MulOp final : public node_base{
         token_base* MulOp{};
 
-        node_base * Eval(int) override;
+        node_base * Eval(int,std::deque<std::string>&) override;
 
         ~node_MulOp(){
             delete MulOp;
@@ -217,7 +218,7 @@ namespace tn{
         token_base* Number{};
         token_base* Identifier{};
 
-        node_base * Eval(int) override;
+        node_base * Eval(int,std::deque<std::string>&) override;
 
         ~node_Factor(){
             delete Left_B;

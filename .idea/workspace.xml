@@ -63,62 +63,225 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f703466d-a41b-4526-ad29-97b132f0de9f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Compiler/Experience/Cminus/CM_Nodes.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Compiler/Experience/Cminus/CM_Nodes.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Compiler/Experience/Cminus/CM_Parser.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Compiler/Experience/Cminus/CM_Parser.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Cminus/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/Experience/Cminus/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Cminus/CMlexertest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/Experience/Cminus/CMlexertest.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Cminus/build/c1.c-" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Cminus/c1.c-" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/Tiny_Nodes.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/Experience/Tiny/Tiny_Nodes.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/Tiny_Nodes.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/Experience/Tiny/Tiny_Nodes.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/Tiny_Parser.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/Experience/Tiny/Tiny_Parser.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/3.17.0-rc2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/3.17.0-rc2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/3.17.0-rc2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/3.17.0-rc2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/3.17.0-rc2/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/3.17.0-rc2/CompilerIdC/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/3.17.0-rc2/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/3.17.0-rc2/CompilerIdCXX/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tiny.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tiny.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tiny.dir/tinyparsertest.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tiny.dir/tinyparsertest.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tinyParser.dir/Tiny_Parser.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tinyParser.dir/Tiny_Parser.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tinyscan.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tinyscan.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tinyscan.dir/tinylexertest.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tinyscan.dir/tinylexertest.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/libtinyLexer.a" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/libtinyLexer.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/libtinyParser.a" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/libtinyParser.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/tiny.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/tiny.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/tinyscan.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/tinyscan.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/sample.tny" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/store.tny" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/Tiny_Parser.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/Experience/Tiny/Tiny_Parser.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/Tiny_Signal.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/Experience/Tiny/Tiny_Signal.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/tinylexertest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/Experience/Tiny/tinylexertest.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/tinyparsertest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/Experience/Tiny/tinyparsertest.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/5_31_algo_C.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/5_31_algo_C.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/5_31_algo_C.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/5_31_algo_C.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/5_31_algo_C.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/5_31_algo_C.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/5_31_algo_E.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/5_31_algo_E.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/5_31_algo_E.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/5_31_algo_E.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/5_31_algo_E.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/5_31_algo_E.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_1.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_1.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_1.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_1.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_1.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_1.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_10.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_10.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_10.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_10.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_10.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_10.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_2.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_2.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_2.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_2.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_2.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_2.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_3.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_3.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_3.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_3.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_3.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_3.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_4.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_4.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_4.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_4.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_4.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_4.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_5.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_5.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_5.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_5.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_5.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_5.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_6.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_6.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_6.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_6.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_6.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_6.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_7.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_7.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_7.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_7.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_7.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_7.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_8.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_8.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_8.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_8.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_8.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_8.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_9.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_9.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_9.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_9.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_9.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_9.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Huffman.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Huffman.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Huffman.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Huffman.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Huffman.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Huffman.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OS.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OS.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OS1.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OS1.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/code.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/code.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/LibLexer.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/LibLexer.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/LibParser.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/LibParser.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/Parser.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/Parser.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/ParserTest.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/ParserTest.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/SimpleParser.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/SimpleParser.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/compilerstest.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/compilerstest.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Cminus/C_minus.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Cminus/C_minus.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OS.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OS.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OS.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OS.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OS.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OS.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OS1.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OS1.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OS1.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OS1.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OS1.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OS1.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/code.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/code.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/code.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/code.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/code.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/code.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/delnbsp.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/delnbsp.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/delnbsp.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/delnbsp.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/delnbsp.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/delnbsp.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lang-debug.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lang-debug.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lang-debug.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lang-debug.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lang-debug.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lang-debug.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lexer.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lexer.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lexer.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lexer.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lexer.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lexer.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lib.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lib.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lib.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lib.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lib.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lib.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mb.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mb.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mb.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mb.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mb.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mb.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/play.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/play.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/play.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/play.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/play.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/play.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/playground.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/playground.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/playground.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/playground.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/playground.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/playground.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/random.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/random.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/random.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/random.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/random.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/random.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/relearn.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/relearn.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/relearn.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/relearn.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/relearn.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/relearn.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test1.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test1.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test1.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test1.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test1.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test1.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/Lexer.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/Lexer.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/Lexer.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/Lexer.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/Lexer.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/Lexer.dir/includes_CXX.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/Lexer.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/Lexer.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/LexerTest.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/LexerTest.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/LexerTest.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/LexerTest.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/LexerTest.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/LexerTest.dir/includes_CXX.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/LexerTest.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/LexerTest.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/LibLexer.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/LibLexer.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/LibLexer.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/LibLexer.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/LibLexer.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/LibLexer.dir/includes_CXX.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/LibLexer.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/LibLexer.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/LibParser.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/LibParser.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/LibParser.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/LibParser.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/LibParser.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/LibParser.dir/includes_CXX.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/LibParser.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/LibParser.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/Parser.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/Parser.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/Parser.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/Parser.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/Parser.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/Parser.dir/includes_CXX.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/Parser.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/Parser.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/ParserTest.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/ParserTest.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/ParserTest.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/ParserTest.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/ParserTest.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/ParserTest.dir/includes_CXX.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/ParserTest.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/ParserTest.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/SimpleParser.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/SimpleParser.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/SimpleParser.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/SimpleParser.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/SimpleParser.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/SimpleParser.dir/includes_CXX.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/SimpleParser.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/SimpleParser.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/compilerstest.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/compilerstest.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/compilerstest.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/compilerstest.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/compilerstest.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/compilerstest.dir/includes_CXX.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/compilerstest.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/compilerstest.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Cminus/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Cminus/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Cminus/CMakeFiles/LexerLib.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Cminus/CMakeFiles/LexerLib.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Cminus/CMakeFiles/LexerLib.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Cminus/CMakeFiles/LexerLib.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Cminus/CMakeFiles/LexerLib.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Cminus/CMakeFiles/LexerLib.dir/includes_CXX.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Cminus/CMakeFiles/LexerLib.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Cminus/CMakeFiles/LexerLib.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Cminus/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Cminus/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/1.tny" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/1.tny" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Cminus/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Cminus/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tiny.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tiny.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tiny.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tiny.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tiny.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tiny.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tiny.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tiny.dir/includes_CXX.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tiny.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tiny.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyLexer.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyLexer.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyLexer.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyLexer.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyLexer.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyLexer.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyLexer.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyLexer.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyLexer.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyLexer.dir/includes_CXX.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyLexer.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyLexer.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/Tiny_Nodes.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/Tiny_Nodes.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/Tiny_Parser.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/Tiny_Parser.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/includes_CXX.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyscan.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyscan.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyscan.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyscan.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyscan.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyscan.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyscan.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyscan.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyscan.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyscan.dir/includes_CXX.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyscan.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyscan.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyscan.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyscan.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyscan.dir/tinylexertest.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyscan.dir/tinylexertest.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/libtinyLexer.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/libtinyLexer.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/libtinyParser.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/libtinyParser.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/compiler_work.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/compiler_work.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/compiler_learn.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/compiler_learn.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/tinyscan.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/tinyscan.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/cmake_install.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pName.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pName.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/exception.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/exception.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/exception.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/exception.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/exception.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/exception.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/explicit.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/explicit.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/explicit.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/explicit.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/explicit.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/explicit.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/expr.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/expr.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/expr.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/expr.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/expr.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/expr.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/for.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/for.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/for.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/for.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/for.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/for.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/if.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/if.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/if.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/if.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/if.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/if.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/implicit.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/implicit.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/implicit.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/implicit.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/implicit.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/implicit.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/operator.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/operator.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/operator.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/operator.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/operator.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/operator.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/overflow.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/overflow.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/overflow.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/overflow.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/overflow.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/overflow.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/range_for.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/range_for.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/range_for.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/range_for.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/range_for.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/range_for.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/switch.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/switch.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/switch.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/switch.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/switch.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/switch.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/while.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/while.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/while.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/while.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/while.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/while.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/cmake_install.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/play.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/play.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/play.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/play.hpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,6 +289,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ClangdSettings">
+    <option name="clangTidyViaClangd" value="false" />
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
@@ -158,8 +322,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="cmake.loaded.for.project" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="CMake&#10;TEXT" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -181,267 +348,272 @@
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.tiny">
-    <configuration name="5_31_algo_C" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="5_31_algo_C" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="5_31_algo_C">
+    <configuration name="5_31_algo_C" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="5_31_algo_C" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="5_31_algo_C">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="5_31_algo_E" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="5_31_algo_E" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="5_31_algo_E">
+    <configuration name="5_31_algo_E" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="5_31_algo_E" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="5_31_algo_E">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AD_1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="AD_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="AD_1">
+    <configuration name="AD_1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="AD_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="AD_1">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AD_10" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="AD_10" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="AD_10">
+    <configuration name="AD_10" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="AD_10" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="AD_10">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AD_2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="AD_2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="AD_2">
+    <configuration name="AD_2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="AD_2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="AD_2">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AD_3" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="AD_3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="AD_3">
+    <configuration name="AD_3" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="AD_3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="AD_3">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AD_4" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="AD_4" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="AD_4">
+    <configuration name="AD_4" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="AD_4" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="AD_4">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AD_5" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="AD_5" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="AD_5">
+    <configuration name="AD_5" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="AD_5" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="AD_5">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AD_6" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="AD_6" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="AD_6">
+    <configuration name="AD_6" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="AD_6" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="AD_6">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AD_7" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="AD_7" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="AD_7">
+    <configuration name="AD_7" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="AD_7" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="AD_7">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AD_8" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="AD_8" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="AD_8">
+    <configuration name="AD_8" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="AD_8" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="AD_8">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AD_9" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="AD_9" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="AD_9">
+    <configuration name="AD_9" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="AD_9" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="AD_9">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Huffman" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="Huffman" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="Huffman">
+    <configuration name="Huffman" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="Huffman" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="Huffman">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lexer" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="Lexer" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="Lexer">
+    <configuration name="Lexer" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="Lexer" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="Lexer">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LexerLib" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="LexerLib" CONFIG_NAME="Debug">
+    <configuration name="LexerLib" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="LexerLib" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LexerTest" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="LexerTest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="LexerTest">
+    <configuration name="LexerTest" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="LexerTest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="LexerTest">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lexertest" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="./c1.c-" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="Lexertest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="Lexertest">
+    <configuration name="Lexertest" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="./c1.c-" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="Lexertest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="Lexertest">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LibLexer" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="LibLexer" CONFIG_NAME="Debug">
+    <configuration name="LibLexer" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="LibLexer" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LibParser" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="LibParser" CONFIG_NAME="Debug">
+    <configuration name="LibParser" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="LibParser" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OS" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="OS" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="OS">
+    <configuration name="OS" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="OS" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="OS">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OS1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="OS1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="OS1">
+    <configuration name="OS1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="OS1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="OS1">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Parser" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="Parser" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="Parser">
+    <configuration name="Parser" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="Parser" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="Parser">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParserTest" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="ParserTest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="ParserTest">
+    <configuration name="ParserTest" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="ParserTest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="ParserTest">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleParser" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="SimpleParser" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="SimpleParser">
+    <configuration name="SimpleParser" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="SimpleParser" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="SimpleParser">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="code" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="code" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="code">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="compilerstest" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="compilerstest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="compilerstest">
+    <configuration name="code" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="code" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="code">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="cscan" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="cscan" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="cscan">
+    <configuration name="compilerstest" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="compilerstest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="compilerstest">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="delnbsp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="delnbsp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="delnbsp">
+    <configuration name="cscan" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="cscan" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="cscan">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="exception" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="exception" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="exception">
+    <configuration name="delnbsp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="delnbsp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="delnbsp">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="explicit" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="explicit" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="explicit">
+    <configuration name="exception" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="exception" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="exception">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="expr" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="expr" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="expr">
+    <configuration name="explicit" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="explicit" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="explicit">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="for" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="for" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="for">
+    <configuration name="expr" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="expr" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="expr">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="if" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="if" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="if">
+    <configuration name="for" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="for" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="for">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="implicit" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="implicit" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="implicit">
+    <configuration name="if" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="if" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="if">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lang-debug" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="lang-debug" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="lang-debug">
+    <configuration name="implicit" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="implicit" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="implicit">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lexer" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="lexer" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="lexer">
+    <configuration name="lang-debug" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="lang-debug" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="lang-debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lib" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="lib" CONFIG_NAME="Debug">
+    <configuration name="lexer" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="lexer" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="lexer">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mb" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="mb" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="mb">
+    <configuration name="lib" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="lib" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="operator" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="operator" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="operator">
+    <configuration name="mb" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="mb" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="mb">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="overflow" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="overflow" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="overflow">
+    <configuration name="operator" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="operator" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="operator">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="play" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="play" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="play">
+    <configuration name="overflow" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="overflow" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="overflow">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="playground" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="playground" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="playground">
+    <configuration name="play" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="play" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="play">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="random" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="random" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="random">
+    <configuration name="playground" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="playground" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="playground">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="range_for" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="range_for" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="range_for">
+    <configuration name="random" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="random" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="random">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="relearn" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="relearn" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="relearn">
+    <configuration name="range_for" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="range_for" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="range_for">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="switch" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="switch" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="switch">
+    <configuration name="relearn" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="relearn" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="relearn">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="test">
+    <configuration name="switch" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="switch" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="switch">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="test1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="test1">
+    <configuration name="test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="test">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tiny" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="./1.tny" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="tiny" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="tiny">
+    <configuration name="test1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="test1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="test1">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tinyLexer" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="tinyLexer" CONFIG_NAME="Debug">
+    <configuration name="tiny" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="1.tny" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="tiny" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="tiny">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tinyParser" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="tinyParser" CONFIG_NAME="Debug">
+    <configuration name="tinyLexer" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="tinyLexer" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tinyscan" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="1.tny" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="tinyscan" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="tinyscan">
+    <configuration name="tinyParser" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="tinyParser" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="while" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="while" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="while">
+    <configuration name="tinyscan" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="1.tny" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="tinyscan" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="tinyscan">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="while" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="while" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="while">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -659,7 +831,12 @@
       <workItem from="1617712609720" duration="495000" />
       <workItem from="1617782139217" duration="4007000" />
       <workItem from="1617809676654" duration="209000" />
-      <workItem from="1617809918889" duration="1108000" />
+      <workItem from="1617809918889" duration="1334000" />
+      <workItem from="1618239492506" duration="979000" />
+      <workItem from="1618330429709" duration="857000" />
+      <workItem from="1618366483239" duration="4593000" />
+      <workItem from="1618378658780" duration="13867000" />
+      <workItem from="1618396490355" duration="2989000" />
     </task>
     <task id="LOCAL-00001" summary="update C- lexer">
       <created>1616820192554</created>
@@ -668,7 +845,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616820192554</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update 2021_04_08">
+      <created>1617811229083</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1617811229083</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -676,7 +860,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update C- lexer" />
-    <option name="LAST_COMMIT_MESSAGE" value="update C- lexer" />
+    <MESSAGE value="update 2021_04_08" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 2021_04_08" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -688,6 +873,9 @@
         <watch expression="l.tokens._M_impl._M_map" />
         <watch expression="l.tokens._M_impl._M_map-&gt;*l.tokens._M_impl._M_map" language="ObjectiveC" />
         <watch expression="line" />
+        <watch expression="this" />
+        <watch expression="readStmt-&gt;Read" />
+        <watch expression="ifStmt-&gt;Stmt_sequence_1" />
       </configuration>
     </watches-manager>
   </component>

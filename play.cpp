@@ -1,14 +1,8 @@
-#include "test.hpp"
+#include <iostream>
+#include <fstream>
 
-#include <muduo/base/Logging.h>
-#include <muduo/net/EventLoop.h>
 
 int main(){
-    LOG_INFO << "pid = " << getpid();
-    muduo::net::EventLoop loop;
-    muduo::net::InetAddress listenAddr(2007);
-    EchoServer (&loop, listenAddr);
-    server.start();
-    loop.loop();
+    std::fstream 
     return 0;
 }

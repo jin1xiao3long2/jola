@@ -56,9 +56,9 @@
 #include <Tiny_Nodes.hpp>
 #include <deque>
 
-namespace tn{
+namespace tn {
 
-    class Parser final{
+    class Parser final {
 
     private:
         std::deque<token_base *> tokens;
@@ -66,8 +66,11 @@ namespace tn{
         int lineNum = 0;
         std::deque<std::string> messages;
 
+
 //        Message Function
         void addMessage(const std::string &info);
+
+        void addInfo(const std::string &info);
 
 //        Support Function
         bool IsEnd(); //check if tokens.empty
@@ -82,63 +85,72 @@ namespace tn{
 
         keyword_type peek_keyword(); //check keyword.value
 
-        token_base* consume_token(); //pop and get tokens.front
+        token_base *consume_token(); //pop and get tokens.front
 
         bool match_type(token_type type);
 
-        token_base* consume_type(token_type type);
+        token_base *consume_type(token_type type);
 
         bool match_keyword(keyword_type keyword);
 
-        token_base* consume_keyword(keyword_type keyword);
+        token_base *consume_token(keyword_type keyword);
 
         bool match_signal(signal_type signal);
 
-        token_base* consume_signal(signal_type signal);
+        token_base *consume_token(signal_type signal);
 //        Parse Function
 
-        node_Program* Parse_Program();
+        node_Program *Parse_Program();
 
-        node_Stmt_sequence* Parse_Stmt_sequence();
+        node_Stmt_sequence *Parse_Stmt_sequence();
 
-        node_Statement* Parse_Statement();
+        node_Statement *Parse_Statement();
 
-        node_If_stmt* Parse_If_stmt();
+        node_If_stmt *Parse_If_stmt();
 
-        node_Repeat_stmt* Parse_Repeat_stmt();
+        node_Repeat_stmt *Parse_Repeat_stmt();
 
-        node_Assign_stmt* Parse_Assign_stmt();
+        node_Assign_stmt *Parse_Assign_stmt();
 
-        node_Read_stmt* Parse_Read_stmt();
+        node_Read_stmt *Parse_Read_stmt();
 
-        node_Write_stmt* Parse_Write_stmt();
+        node_Write_stmt *Parse_Write_stmt();
 
-        node_Exp* Parse_Exp();
+        node_Exp *Parse_Exp();
 
-        node_Comparison_op* Parse_Comparison_op();
+        node_Comparison_op *Parse_Comparison_op();
 
-        node_Simple_exp* Parse_Simple_exp();
+        node_Simple_exp *Parse_Simple_exp();
 
-        node_AddOp* Parse_AddOp();
+        node_AddOp *Parse_AddOp();
 
-        node_Term* Parse_Term();
+        node_Term *Parse_Term();
 
-        node_MulOp* Parse_MulOp();
+        node_MulOp *Parse_MulOp();
 
-        node_Factor* Parse_Factor();
+        node_Factor *Parse_Factor();
+
+        void show_info() {
+            for (auto iter = messages.begin(); iter != messages.end(); iter++) {
+                std::cout << iter->data() << std::endl;
+            }
+            std::cout << "\nSyntax tree: " << std::endl;
+//            start->Eval(1, messages);
+        }
 
     public:
         explicit Parser(const std::deque<token_base *> Tokens) : tokens(std::move(Tokens)) {};
 
-        void parse(){
+        void parse() {
+            messages.push_back("TINY PARSING:");
             start = Parse_Program();
+
+            messages.push_back("\nSyntax tree:");
+            start->Eval(1, this->messages);
         }
 
-        void show_info(){
-            for(auto iter = messages.begin(); iter != messages.end(); iter++){
-                std::cout << iter->data() << std::endl;
-            }
-            start->Eval(1);
+        const std::deque<std::string> &getMessages() const {
+            return messages;
         }
 
 
