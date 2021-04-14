@@ -62,227 +62,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f703466d-a41b-4526-ad29-97b132f0de9f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Compiler/Experience/Cminus/CM_Nodes.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Compiler/Experience/Cminus/CM_Nodes.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Compiler/Experience/Cminus/CM_Parser.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Compiler/Experience/Cminus/CM_Parser.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/Tiny_Nodes.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/Experience/Tiny/Tiny_Nodes.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/Tiny_Nodes.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/Experience/Tiny/Tiny_Nodes.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/Tiny_Parser.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/Experience/Tiny/Tiny_Parser.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/Tiny_Parser.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/Experience/Tiny/Tiny_Parser.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/Tiny_Signal.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/Experience/Tiny/Tiny_Signal.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/tinylexertest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/Experience/Tiny/tinylexertest.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/tinyparsertest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/Experience/Tiny/tinyparsertest.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/5_31_algo_C.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/5_31_algo_C.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/5_31_algo_C.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/5_31_algo_C.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/5_31_algo_C.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/5_31_algo_C.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/5_31_algo_E.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/5_31_algo_E.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/5_31_algo_E.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/5_31_algo_E.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/5_31_algo_E.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/5_31_algo_E.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_1.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_1.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_1.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_1.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_1.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_1.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_10.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_10.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_10.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_10.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_10.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_10.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_2.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_2.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_2.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_2.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_2.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_2.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_3.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_3.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_3.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_3.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_3.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_3.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_4.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_4.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_4.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_4.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_4.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_4.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_5.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_5.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_5.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_5.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_5.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_5.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_6.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_6.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_6.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_6.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_6.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_6.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_7.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_7.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_7.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_7.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_7.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_7.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_8.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_8.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_8.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_8.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_8.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_8.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_9.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_9.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_9.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_9.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_9.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AD_9.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Huffman.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Huffman.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Huffman.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Huffman.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Huffman.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Huffman.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OS.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OS.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OS.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OS.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OS.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OS.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OS1.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OS1.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OS1.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OS1.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OS1.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OS1.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/code.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/code.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/code.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/code.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/code.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/code.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/delnbsp.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/delnbsp.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/delnbsp.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/delnbsp.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/delnbsp.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/delnbsp.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lang-debug.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lang-debug.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lang-debug.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lang-debug.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lang-debug.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lang-debug.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lexer.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lexer.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lexer.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lexer.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lexer.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lexer.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lib.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lib.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lib.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lib.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lib.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lib.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mb.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mb.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mb.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mb.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mb.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mb.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/play.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/play.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/play.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/play.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/play.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/play.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/playground.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/playground.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/playground.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/playground.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/playground.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/playground.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/random.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/random.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/random.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/random.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/random.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/random.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/relearn.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/relearn.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/relearn.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/relearn.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/relearn.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/relearn.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test1.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test1.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test1.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test1.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test1.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test1.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/Lexer.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/Lexer.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/Lexer.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/Lexer.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/Lexer.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/Lexer.dir/includes_CXX.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/Lexer.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/Lexer.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/LexerTest.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/LexerTest.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/LexerTest.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/LexerTest.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/LexerTest.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/LexerTest.dir/includes_CXX.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/LexerTest.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/LexerTest.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/LibLexer.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/LibLexer.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/LibLexer.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/LibLexer.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/LibLexer.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/LibLexer.dir/includes_CXX.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/LibLexer.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/LibLexer.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/LibParser.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/LibParser.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/LibParser.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/LibParser.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/LibParser.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/LibParser.dir/includes_CXX.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/LibParser.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/LibParser.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/Parser.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/Parser.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/Parser.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/Parser.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/Parser.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/Parser.dir/includes_CXX.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/Parser.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/Parser.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/ParserTest.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/ParserTest.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/ParserTest.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/ParserTest.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/ParserTest.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/ParserTest.dir/includes_CXX.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/ParserTest.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/ParserTest.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/SimpleParser.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/SimpleParser.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/SimpleParser.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/SimpleParser.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/SimpleParser.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/SimpleParser.dir/includes_CXX.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/SimpleParser.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/SimpleParser.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/compilerstest.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/compilerstest.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/compilerstest.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/compilerstest.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/compilerstest.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/compilerstest.dir/includes_CXX.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/compilerstest.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/CMakeFiles/compilerstest.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Cminus/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Cminus/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Cminus/CMakeFiles/LexerLib.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Cminus/CMakeFiles/LexerLib.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Cminus/CMakeFiles/LexerLib.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Cminus/CMakeFiles/LexerLib.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Cminus/CMakeFiles/LexerLib.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Cminus/CMakeFiles/LexerLib.dir/includes_CXX.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Cminus/CMakeFiles/LexerLib.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Cminus/CMakeFiles/LexerLib.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Cminus/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Cminus/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Cminus/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Cminus/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tiny.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tiny.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tiny.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tiny.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tiny.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tiny.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tiny.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tiny.dir/includes_CXX.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tiny.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tiny.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyLexer.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyLexer.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyLexer.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyLexer.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyLexer.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyLexer.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyLexer.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyLexer.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyLexer.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyLexer.dir/includes_CXX.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyLexer.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyLexer.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/Tiny_Nodes.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/Tiny_Nodes.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/Tiny_Parser.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/Tiny_Parser.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/includes_CXX.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyParser.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyscan.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyscan.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyscan.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyscan.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyscan.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyscan.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyscan.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyscan.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyscan.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyscan.dir/includes_CXX.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyscan.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyscan.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyscan.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyscan.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyscan.dir/tinylexertest.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/CMakeFiles/tinyscan.dir/tinylexertest.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/libtinyLexer.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/libtinyLexer.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/libtinyParser.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/libtinyParser.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/tinyscan.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/Tiny/tinyscan.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Experience/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Compiler/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Compiler/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/exception.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/exception.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/exception.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/exception.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/exception.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/exception.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/explicit.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/explicit.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/explicit.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/explicit.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/explicit.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/explicit.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/expr.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/expr.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/expr.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/expr.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/expr.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/expr.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/for.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/for.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/for.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/for.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/for.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/for.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/if.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/if.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/if.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/if.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/if.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/if.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/implicit.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/implicit.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/implicit.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/implicit.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/implicit.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/implicit.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/operator.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/operator.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/operator.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/operator.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/operator.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/operator.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/overflow.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/overflow.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/overflow.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/overflow.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/overflow.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/overflow.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/range_for.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/range_for.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/range_for.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/range_for.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/range_for.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/range_for.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/switch.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/switch.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/switch.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/switch.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/switch.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/switch.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/while.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/while.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/while.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/while.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/while.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/CMakeFiles/while.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tcode/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tcode/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/play.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/play.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="f703466d-a41b-4526-ad29-97b132f0de9f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -836,7 +616,7 @@
       <workItem from="1618330429709" duration="857000" />
       <workItem from="1618366483239" duration="4593000" />
       <workItem from="1618378658780" duration="13867000" />
-      <workItem from="1618396490355" duration="2989000" />
+      <workItem from="1618396490355" duration="3536000" />
     </task>
     <task id="LOCAL-00001" summary="update C- lexer">
       <created>1616820192554</created>
@@ -852,7 +632,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617811229083</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update tiny parser">
+      <created>1618399604620</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1618399604621</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -861,7 +648,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update C- lexer" />
     <MESSAGE value="update 2021_04_08" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 2021_04_08" />
+    <MESSAGE value="update tiny parser" />
+    <option name="LAST_COMMIT_MESSAGE" value="update tiny parser" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
