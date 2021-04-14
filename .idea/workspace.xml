@@ -63,128 +63,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f703466d-a41b-4526-ad29-97b132f0de9f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Compiler.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Cminus.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Cminus/CM_Lexer.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Cminus/CM_Lexer.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Cminus/CM_Nodes.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Cminus/CM_Nodes.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Cminus/CM_Parser.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Cminus/CM_Parser.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Cminus/CM_Signal.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Cminus/CM_Signal.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Cminus/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Cminus/CMlexertest.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/Tiny_Lexer.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/Tiny_Lexer.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/Tiny_Nodes.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/Tiny_Nodes.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/Tiny_Parser.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/Tiny_Parser.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/Tiny_Signal.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/Tiny_Signal.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/1.tny" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/3.17.0-rc2/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/3.17.0-rc2/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/3.17.0-rc2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/3.17.0-rc2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/3.17.0-rc2/CMakeRCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/3.17.0-rc2/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/3.17.0-rc2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/3.17.0-rc2/CompilerIdC/a.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/3.17.0-rc2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/3.17.0-rc2/CompilerIdCXX/a.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/Makefile.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/Makefile2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tiny.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tiny.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tiny.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tiny.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tiny.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tiny.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tiny.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tiny.dir/includes_CXX.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tiny.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tiny.dir/linklibs.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tiny.dir/objects.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tiny.dir/objects1.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tiny.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tiny.dir/tinyparsertest.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tinyLexer.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tinyLexer.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tinyLexer.dir/Tiny_Lexer.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tinyLexer.dir/Tiny_Signal.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tinyLexer.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tinyLexer.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tinyLexer.dir/cmake_clean_target.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tinyLexer.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tinyLexer.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tinyLexer.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tinyLexer.dir/includes_CXX.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tinyLexer.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tinyLexer.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tinyParser.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tinyParser.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tinyParser.dir/Tiny_Nodes.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tinyParser.dir/Tiny_Parser.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tinyParser.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tinyParser.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tinyParser.dir/cmake_clean_target.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tinyParser.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tinyParser.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tinyParser.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tinyParser.dir/includes_CXX.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tinyParser.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tinyParser.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tinyscan.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tinyscan.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tinyscan.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tinyscan.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tinyscan.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tinyscan.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tinyscan.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tinyscan.dir/includes_CXX.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tinyscan.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tinyscan.dir/linklibs.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tinyscan.dir/objects.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tinyscan.dir/objects1.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tinyscan.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/CMakeFiles/tinyscan.dir/tinylexertest.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/libtinyLexer.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/libtinyParser.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/tiny.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/build/tinyscan.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/tinylexerMain.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/Tiny/tinyparserMain.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/c1.c-" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/sample.tny" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/store.tny" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Experience/test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/compilerStest.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/compilerStest.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/lexer.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/lexer.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/lexerparser.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/lexertest.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/parser.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/parser.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/simpleParser.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/simpleParser.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/simpleParsertest.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/test.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,7 +110,7 @@
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="CMake&#10;TEXT" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/2021_2/Compiler_work" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
@@ -251,11 +130,6 @@
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.tiny">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="5_31_algo_C" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pName" TARGET_NAME="5_31_algo_C" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pName" RUN_TARGET_NAME="5_31_algo_C">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -744,7 +618,8 @@
       <workItem from="1618330429709" duration="857000" />
       <workItem from="1618366483239" duration="4593000" />
       <workItem from="1618378658780" duration="13867000" />
-      <workItem from="1618396490355" duration="4975000" />
+      <workItem from="1618396490355" duration="5209000" />
+      <workItem from="1618401785476" duration="22000" />
     </task>
     <task id="LOCAL-00001" summary="update C- lexer">
       <created>1616820192554</created>
@@ -767,7 +642,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618399604621</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="put compiler directory to another repo">
+      <created>1618401734815</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1618401734815</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -828,12 +710,14 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update C- lexer" />
     <MESSAGE value="update 2021_04_08" />
     <MESSAGE value="update tiny parser" />
-    <option name="LAST_COMMIT_MESSAGE" value="update tiny parser" />
+    <MESSAGE value="put compiler directory to another repo" />
+    <option name="LAST_COMMIT_MESSAGE" value="put compiler directory to another repo" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
